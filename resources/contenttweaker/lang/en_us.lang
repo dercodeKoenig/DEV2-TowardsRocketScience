@@ -1,0 +1,15 @@
+tile.contenttweaker.planet_artifact_volcanic.name=Artifact - Volcanic
+tile.contenttweaker.planet_artifact_ferric_sand.name=Artifact - Ferric Sand
+tile.contenttweaker.planet_artifact_strange_dust.name=Artifact - Strange Dust
+tile.contenttweaker.planet_artifact_gas_giant.name=Artifact - Gas Giant
+tile.contenttweaker.planet_artifact_ice.name=Artifact - Ice Crystals
+
+
+fluid.naphta=Naphta
+fluid.propene=Propene Gas
+fluid.kerosene=Kerosene
+fluid.moltenplastic=Molten Plastic
+
+item.contenttweaker.plastic.name=Plastic
+
+

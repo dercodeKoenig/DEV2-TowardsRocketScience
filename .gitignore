@@ -1,0 +1,17 @@
+.mixin.out/
+backups/
+betweenlands_gallery/
+crash-reports/
+downloads/
+local/
+logs/
+mods/
+patchouli_books/
+saves/
+screenshots/
+structurize/
+snapshots-server/
+.curseclient
+.ReAuth.cfg
+crafttweaker.log
+patchouli_data.json
