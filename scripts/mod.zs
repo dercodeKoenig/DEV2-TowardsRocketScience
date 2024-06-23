@@ -255,3 +255,9 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:propene>, <liquid:naphta>, 
 
 //mods.tconstruct.Casting.addTableRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:plastic>, <tconstruct:cast_custom:3>, <liquid:moltenplastic>, 100);
+
+
+
+recipes.remove(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}));
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), [[null, null, null],[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<buildcraftcore:gear_iron>, <minecraft:redstone>, <buildcraftcore:gear_iron>]]);
+

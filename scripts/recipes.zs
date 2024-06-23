@@ -8,7 +8,6 @@ recipes.remove(<libvulpes:linker>);
 recipes.remove(<advancedrocketry:wirelesstransciever>);
 recipes.remove(<advancedrocketry:loader:1>);
 recipes.remove(<immersiveengineering:wirecoil:2>);
-recipes.remove(<immersiveengineering:conveyor>);
 recipes.remove(<advancedrocketry:liquidtank>);
 recipes.remove(<buildcrafttransport:pipe_stone_power>);
 recipes.remove(<buildcrafttransport:pipe_wood_power>);
@@ -71,6 +70,12 @@ recipes.remove(<buildcrafttransport:pipe_stone_item>);
 recipes.remove(<buildcrafttransport:pipe_wood_item>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<buildcrafttransport:pipe_iron_item>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<minecraft:glass>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <minecraft:glass>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<buildcrafttransport:pipe_gold_item>, [[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],[<minecraft:glass>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <minecraft:glass>], [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
+recipes.addShaped(<buildcrafttransport:pipe_cobble_item>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],[<minecraft:glass>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <minecraft:glass>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
+recipes.addShaped(<buildcrafttransport:pipe_stone_item>, [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],[<minecraft:glass>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <minecraft:glass>], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
+recipes.addShaped(<buildcrafttransport:pipe_wood_item>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],[<minecraft:glass>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"}).onlyWithTag({conveyorType: "immersiveengineering:extract"}), <minecraft:glass>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+recipes.addShaped(<buildcrafttransport:pipe_clay_item>, [[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],[<minecraft:glass>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <minecraft:glass>], [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]);
 recipes.addShaped(<railcraft:rail>*3, [[null, <immersiveengineering:material:1>, null],[null, <immersiveengineering:material:1>, null], [null, <immersiveengineering:material:1>, null]]);
 recipes.addShaped(<advancedrocketry:satelliteidchip>, [[null, null, null],[<contenttweaker:plastic>, <advancedrocketry:ic>, <contenttweaker:plastic>], [null, null, null]]);
 recipes.addShaped(<advancedrocketry:satellite>, [[<libvulpes:productsheet:9>, <contenttweaker:plastic>, <libvulpes:productsheet:9>],[<libvulpes:productrod:7>, <advancedrocketry:ic:3>, <libvulpes:productrod:7>], [<libvulpes:productsheet:9>, <contenttweaker:plastic>, <libvulpes:productsheet:9>]]);
@@ -80,7 +85,6 @@ recipes.addShaped(<advancedrocketry:wirelesstransciever>, [[<minecraft:glass_pan
 recipes.addShaped(<advancedrocketry:loader:1>, [[<libvulpes:productrod:7>, <contenttweaker:plastic>, <libvulpes:productrod:7>],[<contenttweaker:plastic>, <libvulpes:structuremachine>, <contenttweaker:plastic>], [<libvulpes:productrod:7>, <contenttweaker:plastic>, <libvulpes:productrod:7>]]);
 recipes.addShaped(<immersiveengineering:wirecoil:2>, [[<immersiveengineering:material:22>, <immersiveengineering:material:23>, <immersiveengineering:material:22>],[<immersiveengineering:material:23>, <immersiveengineering:wirecoil:1>, <immersiveengineering:material:23>], [<immersiveengineering:material:22>, <immersiveengineering:material:23>, <immersiveengineering:material:22>]]);
 recipes.addShaped(<buildcrafttransport:pipe_stone_fluid>, [[<ore:plateIron>, null, <ore:plateIron>],[null, <buildcrafttransport:pipe_cobble_fluid>, null], [<ore:plateIron>, null, <ore:plateIron>]]);
-recipes.addShaped(<immersiveengineering:conveyor>, [[null, null, null],[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<buildcraftcore:gear_iron>, <minecraft:redstone>, <buildcraftcore:gear_iron>]]);
 recipes.addShaped(<advancedrocketry:liquidtank>, [[<libvulpes:productrod:10>, <advancedrocketry:pressuretank:3>, <libvulpes:productrod:10>],[<minecraft:glass_pane>, <advancedrocketry:pressuretank:3>, <minecraft:glass_pane>], [<libvulpes:productrod:10>, <advancedrocketry:pressuretank:3>, <libvulpes:productrod:10>]]);
 recipes.addShapeless(<minecraft:gunpowder>*4, [<minecraft:coal>,<minecraft:glowstone_dust>,<minecraft:redstone>,<minecraft:blaze_powder>]);
 //recipes.addShaped(<buildcrafttransport:pipe_stone_fluid>, [[null, null, null],[<minecraft:stone>, <minecraft:glass>, <minecraft:stone>], [null, null, null]]);
