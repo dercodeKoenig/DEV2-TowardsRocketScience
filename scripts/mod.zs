@@ -64,9 +64,9 @@ recipes.remove(<immersiveengineering:wooden_device1>);
 
 
 
-//disable engineers workbench to force player to build the machine
-<immersiveengineering:wooden_device0:2>.displayName = "Engineer's Workbench (disabled item - use auto workbench)";
-recipes.remove(<immersiveengineering:wooden_device0:2>);
+//disable engineers workbench to force player to build the machine (not good because player y´can no longer craft drill)
+//<immersiveengineering:wooden_device0:2>.displayName = "Engineer's Workbench (disabled item - use auto workbench)";
+//recipes.remove(<immersiveengineering:wooden_device0:2>);
 
 //blueprint refined storage is added as quest
 //recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Refined Storage"}), [[null, <minecraft:chest>, null],[<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
@@ -111,6 +111,11 @@ mods.immersiveengineering.Blueprint.addRecipe("Engineering Components", <immersi
 recipes.remove(<immersiveengineering:metal_device1:6>);
 mods.immersiveengineering.Blueprint.addRecipe("Engineering Components", <immersiveengineering:metal_device1:6>, [<ore:plateIron>*2]);
 
+//change this shit with railcraft gear
+mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:gear:2>);
+mods.immersiveengineering.MetalPress.addRecipe(<libvulpes:productgear:6>, <ore:ingotSteel>, <immersiveengineering:mold:1>, 512, 4);
+mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:gear:1>);
+mods.immersiveengineering.MetalPress.addRecipe(<buildcraftcore:gear_iron>, <ore:ingotIron>, <immersiveengineering:mold:1>, 512, 4);
 
 //blueprint saddle crafting
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Saddle crafting"}), [[null, <minecraft:leather>, null],[<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
@@ -137,7 +142,7 @@ recipes.remove(<advancedrocketry:satelliteprimaryfunction:2>);
 mods.immersiveengineering.Blueprint.addRecipe("Rocket Science", <advancedrocketry:satelliteprimaryfunction:2>, [<ore:gemDilithium>, <advancedrocketry:ic>, <advancedrocketry:wafer>*2, <advancedrocketry:satelliteprimaryfunction>*2]);
 
 //machine structure
-mods.immersiveengineering.Blueprint.addRecipe("Rocket Science", <libvulpes:structuremachine>, [<contenttweaker:plastic>*8,<ore:stickIron>*4,<ore:plateIron>*4]);
+mods.immersiveengineering.Blueprint.addRecipe("Rocket Science", <libvulpes:structuremachine>, [<contenttweaker:plastic>*24,<ore:stickIron>*24,<ore:plateIron>*12]);
 mods.immersiveengineering.Blueprint.addRecipe("Rocket Science", <libvulpes:advstructuremachine>, [<libvulpes:structuremachine>, <ore:stickTitanium>*4,<ore:plateTitanium>*4,<immersiveengineering:material:9>*1]);
 
 
