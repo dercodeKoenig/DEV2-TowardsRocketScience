@@ -20,9 +20,9 @@ mods.immersivetechnology.SteamTurbine.removeFuel(<liquid:steam>);
 mods.immersivetechnology.SteamTurbine.addFuel(<liquid:water>*20, <liquid:steam> * 50, 1);
 
 mods.immersivetechnology.Boiler.removeFuel(<liquid:diesel>);
-mods.immersivetechnology.Boiler.addFuel(<liquid:diesel> * 6, 1, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:diesel> * 10, 1, 10);
 mods.immersivetechnology.Boiler.removeFuel(<liquid:biodiesel>);
-mods.immersivetechnology.Boiler.addFuel(<liquid:biodiesel> * 15, 1, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:biodiesel> * 20, 1, 10);
 mods.immersivetechnology.Boiler.removeFuel(<liquid:gasoline>);
 mods.immersivetechnology.Boiler.addFuel(<liquid:gasoline> * 15, 1, 10);
 
