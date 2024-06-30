@@ -14,17 +14,17 @@ mods.buildcraft.CombustionEngine.addCleanFuel(<liquid:diesel>, 48.0/20, 1200*4);
 mods.buildcraft.CombustionEngine.addCleanFuel(<liquid:gasoline>, 64.0/20, 1200*2);
 mods.buildcraft.CombustionEngine.addCleanFuel(<liquid:lubricant>, 1.0/20, 200);
 
-mods.immersiveengineering.Refinery.addRecipe(<liquid:steam>*200, <liquid:hydrogen>*100, <liquid:oxygen>*100, 0);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:steam>*100, <liquid:hydrogen>*50, <liquid:oxygen>*50, 0);
 
 mods.immersivetechnology.SteamTurbine.removeFuel(<liquid:steam>);
-mods.immersivetechnology.SteamTurbine.addFuel(<liquid:water>*20, <liquid:steam> * 50, 1);
+mods.immersivetechnology.SteamTurbine.addFuel(<liquid:water>*20, <liquid:steam> * 52, 1);
 
 mods.immersivetechnology.Boiler.removeFuel(<liquid:diesel>);
-mods.immersivetechnology.Boiler.addFuel(<liquid:diesel> * 10, 1, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:diesel> * 8, 1, 10);
 mods.immersivetechnology.Boiler.removeFuel(<liquid:biodiesel>);
-mods.immersivetechnology.Boiler.addFuel(<liquid:biodiesel> * 20, 1, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:biodiesel> * 16, 1, 10);
 mods.immersivetechnology.Boiler.removeFuel(<liquid:gasoline>);
-mods.immersivetechnology.Boiler.addFuel(<liquid:gasoline> * 15, 1, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:gasoline> * 10, 1, 10);
 
 mods.immersivetechnology.GasTurbine.removeFuel(<liquid:gasoline>);
 mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas> * 50, <liquid:gasoline> * 30, 1);
@@ -37,8 +37,8 @@ mods.immersivepetroleum.PortableGenerator.registerPortableGenFuel(<liquid:rocket
 // slow down boiler
 mods.immersivetechnology.Boiler.removeRecipe(<liquid:water>);
 mods.immersivetechnology.Boiler.removeRecipe(<liquid:distwater>);
-mods.immersivetechnology.Boiler.addRecipe(<liquid:steam> * 34, <liquid:water> * 20, 1);
-mods.immersivetechnology.Boiler.addRecipe(<liquid:steam> * 40, <liquid:distwater> * 20, 1);
+mods.immersivetechnology.Boiler.addRecipe(<liquid:steam> * 26, <liquid:water> * 20, 1);
+mods.immersivetechnology.Boiler.addRecipe(<liquid:steam> * 39, <liquid:distwater> * 20, 1);
 
 //change distiller
 mods.immersivetechnology.Distiller.removeRecipe(<liquid:water>);
@@ -47,8 +47,8 @@ mods.immersivetechnology.Distiller.addRecipe(<liquid:distwater> * 25, <liquid:wa
 // slow down solar tower
 mods.immersivetechnology.SolarTower.removeRecipe(<liquid:water>);
 mods.immersivetechnology.SolarTower.removeRecipe(<liquid:distwater>);
-mods.immersivetechnology.SolarTower.addRecipe(<liquid:steam> * 34, <liquid:water> * 20, 1);
-mods.immersivetechnology.SolarTower.addRecipe(<liquid:steam> * 40, <liquid:distwater> * 20, 1);
+mods.immersivetechnology.SolarTower.addRecipe(<liquid:steam> * 12, <liquid:water> * 10, 1);
+mods.immersivetechnology.SolarTower.addRecipe(<liquid:steam> * 15, <liquid:distwater> * 10, 1);
 
 
 

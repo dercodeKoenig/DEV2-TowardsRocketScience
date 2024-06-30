@@ -4116,7 +4116,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Steam Turbine",
-          "desc:8": "A Steam Turbing is very fuel efficient. It needs a boiler to heat water to steam. The steam can be piped into the turbine. We can recycle some of the water from the turbing exhaust.\n\nTo maximize your steam production use distilled water for your boiler. It will produce more steam resulting in more energy produced.\n\nEnergy output: ~12000 RF/tick"
+          "desc:8": "A Steam Turbing is very fuel efficient. It needs a boiler to heat water to steam. The steam can be piped into the turbine. We can recycle some of the water from the turbing exhaust.\n\nTo maximize your steam production use distilled water for your boiler. It will produce more steam resulting in more energy produced.\n\nI have listed the materials for a turbine, the alternator and a boiler.\n\nNote that one boiler that uses no distilled water will not be enough to power the turbine.\n\n\nEnergy output: ~12000 RF/tick"
         }
       },
       "tasks:9": {
