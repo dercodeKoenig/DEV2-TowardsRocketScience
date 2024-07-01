@@ -252,7 +252,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:1>
 //add distillation tower naphte recipes
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:naphta> * 15, <liquid:kerosene> * 15], [], <liquid:diesel>*30, 2048, 1, []);
 //add distillation tower plastic recipes
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:moltenplastic> * 5], [], <liquid:propene>*30, 2048, 1, []);
+//mods.immersivepetroleum.Distillation.addRecipe([<liquid:moltenplastic> * 5], [], <liquid:propene>*30, 2048, 1, []);
 
 
 mods.immersiveengineering.Refinery.addRecipe(<liquid:propene>, <liquid:naphta>, <liquid:steam>*50, 2048);
@@ -264,5 +264,6 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:plastic>, <tconstruct:cas
 
 
 recipes.remove(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}));
-recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), [[null, null, null],[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<buildcraftcore:gear_iron>, <minecraft:redstone>, <buildcraftcore:gear_iron>]]);
+recipes.addShaped(<immersiveengineering:conveyor>, [[null, null, null],[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<buildcraftcore:gear_iron>, <minecraft:redstone>, <buildcraftcore:gear_iron>]]);
 
+recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), [<immersiveengineering:conveyor>]);
