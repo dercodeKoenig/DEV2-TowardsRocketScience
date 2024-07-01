@@ -1,6 +1,24 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.removeShapeless(<minecraft:concrete_powder:7>);
+recipes.removeShapeless(<minecraft:concrete_powder:14>);
+recipes.removeShapeless(<minecraft:concrete_powder:12>);
+recipes.removeShapeless(<minecraft:concrete_powder:6>);
+recipes.removeShapeless(<minecraft:concrete_powder:10>);
+recipes.removeShapeless(<minecraft:concrete_powder:13>);
+recipes.removeShapeless(<minecraft:concrete_powder:3>);
+recipes.removeShapeless(<minecraft:concrete_powder:11>);
+recipes.removeShapeless(<minecraft:concrete_powder:5>);
+recipes.removeShapeless(<minecraft:concrete_powder:1>);
+recipes.removeShapeless(<minecraft:concrete_powder:2>);
+recipes.removeShapeless(<minecraft:concrete_powder:8>);
+recipes.removeShapeless(<minecraft:concrete_powder:4>);
+recipes.removeShapeless(<minecraft:concrete_powder:15>);
+recipes.removeShapeless(<minecraft:concrete_powder>);
+recipes.removeShapeless(<minecraft:concrete_powder:9>);
+recipes.removeShapeless(<advancedrocketry:concrete>, []);
+recipes.remove(<advancedrocketry:concrete>);
 recipes.remove(<advancedrocketry:satelliteidchip>);
 recipes.remove(<advancedrocketry:satellite>);
 recipes.remove(<advancedrocketry:satellitepowersource>);

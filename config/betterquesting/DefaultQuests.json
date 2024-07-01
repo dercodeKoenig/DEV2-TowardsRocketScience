@@ -1071,9 +1071,9 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "railcraft:tool_shovel_steel",
+            "id:8": "immersiveengineering:metal_multiblock",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 11,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -2026,9 +2026,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "immersiveengineering:material",
+            "id:8": "immersiveengineering:metal_multiblock",
             "Count:3": 1,
-            "Damage:2": 18,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -3442,13 +3442,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "forge:bucketfilled",
+            "id:8": "immersivepetroleum:metal_multiblock",
             "Count:3": 1,
-            "tag:10": {
-              "FluidName:8": "oil",
-              "Amount:3": 1000
-            },
-            "Damage:2": 0,
+            "Damage:2": 3,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -3477,7 +3473,7 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "immersiveengineering:treated_wood",
+              "id:8": "immersiveengineering:wooden_decoration",
               "Count:3": 6,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -3731,9 +3727,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "immersiveengineering:graphite_electrode",
+            "id:8": "immersiveengineering:metal_multiblock",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 13,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -4022,9 +4018,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "buildcraftcore:gear_iron",
+            "id:8": "immersiveengineering:metal_multiblock",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 10,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -4092,7 +4088,8 @@
       "questID:3": 65,
       "preRequisites:11": [
         61,
-        63
+        63,
+        62
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4104,9 +4101,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "railcraft:steam",
+            "id:8": "immersivetech:metal_multiblock",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 3,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -4116,7 +4113,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Steam Turbine",
-          "desc:8": "A Steam Turbing is very fuel efficient. It needs a boiler to heat water to steam. The steam can be piped into the turbine. We can recycle some of the water from the turbing exhaust.\n\nTo maximize your steam production use distilled water for your boiler. It will produce more steam resulting in more energy produced.\n\nI have listed the materials for a turbine, the alternator and a boiler.\n\nNote that one boiler that uses no distilled water will not be enough to power the turbine.\n\n\nEnergy output: ~12000 RF/tick"
+          "desc:8": "A Steam Turbing is very fuel efficient. It needs a boiler to heat water to steam. The steam can be piped into the turbine. We can recycle some of the water from the turbing exhaust.\n\nTo maximize your steam production use distilled water for your boiler. It will produce more steam resulting in more energy produced.\n\nI have listed the materials for a turbine, the alternator and a boiler.\n\nNote that one boiler that uses no distilled water will not be enough to power the turbine.\n\n\nEnergy output: ~24000 RF/tick"
         }
       },
       "tasks:9": {
@@ -4215,7 +4212,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "railcraft:turbine_rotor",
+            "id:8": "immersivetech:metal_multiblock1",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -4527,9 +4524,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:piston",
+            "id:8": "immersiveengineering:metal_multiblock",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 7,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
