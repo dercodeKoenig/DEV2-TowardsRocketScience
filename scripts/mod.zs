@@ -263,7 +263,7 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:plastic>, <tconstruct:cas
 
 
 
+//screw you too!
 recipes.remove(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}));
 recipes.addShaped(<immersiveengineering:conveyor>, [[null, null, null],[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<buildcraftcore:gear_iron>, <minecraft:redstone>, <buildcraftcore:gear_iron>]]);
-
 recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), [<immersiveengineering:conveyor>]);
