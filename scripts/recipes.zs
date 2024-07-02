@@ -1,6 +1,12 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<modularmachinery:itemmodularium>);
+recipes.removeShapeless(<buildcrafttransport:pipe_diamond_wood_fluid>);
+recipes.removeShapeless(<buildcrafttransport:pipe_clay_fluid>);
+recipes.removeShapeless(<buildcrafttransport:pipe_gold_fluid>);
+recipes.removeShapeless(<buildcrafttransport:pipe_iron_fluid>);
+recipes.remove(<modularmachinery:blockcasing>);
 recipes.removeShapeless(<minecraft:concrete_powder:7>);
 recipes.removeShapeless(<minecraft:concrete_powder:14>);
 recipes.removeShapeless(<minecraft:concrete_powder:12>);
@@ -88,6 +94,11 @@ recipes.remove(<buildcrafttransport:pipe_stone_item>);
 recipes.remove(<buildcrafttransport:pipe_wood_item>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<buildcrafttransport:pipe_diamond_wood_fluid>*3, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],[<buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
+recipes.addShaped(<buildcrafttransport:pipe_iron_fluid>*3, [[<immersiveengineering:metal:39>, <immersiveengineering:metal:39>, <immersiveengineering:metal:39>],[<buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>], [<immersiveengineering:metal:39>, <immersiveengineering:metal:39>, <immersiveengineering:metal:39>]]);
+recipes.addShaped(<buildcrafttransport:pipe_gold_fluid>*3, [[<immersiveengineering:metal:40>, <immersiveengineering:metal:40>, <immersiveengineering:metal:40>],[<buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>], [<immersiveengineering:metal:40>, <immersiveengineering:metal:40>, <immersiveengineering:metal:40>]]);
+recipes.addShaped(<buildcrafttransport:pipe_clay_fluid>*3, [[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],[<buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>], [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]);
+recipes.addShaped(<modularmachinery:blockcasing>, [[<contenttweaker:modularium_plate>, <contenttweaker:modularium_plate>, <contenttweaker:modularium_plate>],[<contenttweaker:modularium_plate>, null, <contenttweaker:modularium_plate>], [<contenttweaker:modularium_plate>, <contenttweaker:modularium_plate>, <contenttweaker:modularium_plate>]]);
 recipes.addShaped(<buildcrafttransport:pipe_iron_item>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<minecraft:glass>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <minecraft:glass>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<buildcrafttransport:pipe_gold_item>, [[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],[<minecraft:glass>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <minecraft:glass>], [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
 recipes.addShaped(<buildcrafttransport:pipe_cobble_item>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],[<minecraft:glass>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <minecraft:glass>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
@@ -107,9 +118,6 @@ recipes.addShaped(<advancedrocketry:liquidtank>, [[<libvulpes:productrod:10>, <a
 recipes.addShapeless(<minecraft:gunpowder>*4, [<minecraft:coal>,<minecraft:glowstone_dust>,<minecraft:redstone>,<minecraft:blaze_powder>]);
 //recipes.addShaped(<buildcrafttransport:pipe_stone_fluid>, [[null, null, null],[<minecraft:stone>, <minecraft:glass>, <minecraft:stone>], [null, null, null]]);
 recipes.addShaped(<buildcrafttransport:pipe_gold_power>, [[null, null, null],[<minecraft:gold_ingot>, <minecraft:redstone>, <minecraft:gold_ingot>], [null, null, null]]);
-recipes.addShapeless(<immersiveengineering:metal_device0>.withTag({BlockEntityTag: {ifluxEnergy: 100000}}), [<minecraft:redstone>,<minecraft:redstone>,<immersiveengineering:metal_device0>]);
-recipes.addShapeless(<immersiveengineering:metal_device0:1>.withTag({BlockEntityTag: {ifluxEnergy: 1000000}}), [<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>,<immersiveengineering:metal_device0:1>]);
-recipes.addShapeless(<immersiveengineering:metal_device0:2>.withTag({BlockEntityTag: {ifluxEnergy: 4000000}}), [<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>,<immersiveengineering:metal_device0:2>]);
 recipes.addShaped(<advancedrocketry:launchpad>, [[<ore:dyeYellow>, <advancedrocketry:concrete>, <ore:dyeBlack>], [<immersiveengineering:storage:8>, <immersiveengineering:storage:8>, <immersiveengineering:storage:8>], [<immersiveengineering:storage:8>, <immersiveengineering:storage:8>, <immersiveengineering:storage:8>]]);
 recipes.addShaped(<energyconverters:energy_bridge>, [[<minecraft:repeater>, <minecraft:iron_ingot>, <minecraft:repeater>],[<minecraft:iron_ingot>, <minecraft:redstone_block>, <minecraft:iron_ingot>], [<minecraft:comparator>, <minecraft:iron_ingot>, <minecraft:comparator>]]);
 recipes.addShaped(<immersiveengineering:material:2>, [[null, <immersiveengineering:metal:8>, null],[null, <immersiveengineering:metal:8>, null], [null, null, null]]);

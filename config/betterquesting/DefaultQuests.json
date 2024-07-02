@@ -16881,7 +16881,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Conveyor Belts",
-          "desc:8": "Conveyor belts can transport items. \n\nThey are faster than hoppers and look cool!\n\nPut the base conveyor into the craftingtable again to make it work correctly. \n\nWhy so complicated? \nbecause your colony builder shits itself when using non-base conveyors for building!"
+          "desc:8": "Conveyor belts can transport items. \n\nThey are faster than hoppers and look cool!\n"
         }
       },
       "tasks:9": {

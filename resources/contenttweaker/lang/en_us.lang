@@ -9,9 +9,13 @@ fluid.naphta=Naphta
 fluid.propene=Propene Gas
 fluid.kerosene=Kerosene
 fluid.moltenplastic=Molten Plastic
+fluid.molten_modularium=Molten Modularium
+fluid.molten_redstone=Molten Redstone
+
 
 item.contenttweaker.plastic.name=Plastic
+item.contenttweaker.modularium_plate.name=Modularium Plate
 
-tile.immersiveengineering.conveyor..name=Base Conveyor(put it in crafting table again)
+tile.immersiveengineering.conveyor..name=Conveyor Structure
 
 

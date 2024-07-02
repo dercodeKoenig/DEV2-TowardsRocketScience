@@ -251,7 +251,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:1>
 
 //add distillation tower naphte recipes
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:naphta> * 15, <liquid:kerosene> * 15], [], <liquid:diesel>*30, 2048, 1, []);
-//add distillation tower plastic recipes
+//add distillation tower plastic recipes (replaced by polymerizer)
 //mods.immersivepetroleum.Distillation.addRecipe([<liquid:moltenplastic> * 5], [], <liquid:propene>*30, 2048, 1, []);
 
 
@@ -265,5 +265,15 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:plastic>, <tconstruct:cas
 
 //screw you too!
 recipes.remove(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}));
-recipes.addShaped(<immersiveengineering:conveyor>, [[null, null, null],[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<buildcraftcore:gear_iron>, <minecraft:redstone>, <buildcraftcore:gear_iron>]]);
-recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), [<immersiveengineering:conveyor>]);
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), [[null, null, null],[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<buildcraftcore:gear_iron>, <minecraft:redstone>, <buildcraftcore:gear_iron>]]);
+recipes.addShapeless(<immersiveengineering:conveyor>, [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <structurize:sceptergold>.reuse()]);
+//recipes.addShaped(<immersiveengineering:conveyor>, [[null, null, null],[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<buildcraftcore:gear_iron>, <minecraft:redstone>, <buildcraftcore:gear_iron>]]);
+//recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), [<immersiveengineering:conveyor>]);
+
+mods.jei.JEI.addItem(<immersiveengineering:conveyor>);
+
+
+
+recipes.addShapeless(<immersiveengineering:metal_device0>.withTag({BlockEntityTag: {ifluxEnergy: 100000}}), [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>,<immersiveengineering:metal_device0>]);
+recipes.addShapeless(<immersiveengineering:metal_device0:1>.withTag({BlockEntityTag: {ifluxEnergy: 1000000}}), [<minecraft:redstone_block>,<minecraft:redstone_block>,<minecraft:redstone_block>, <minecraft:redstone_block>, <minecraft:redstone_block>,<immersiveengineering:metal_device0:1>]);
+recipes.addShapeless(<immersiveengineering:metal_device0:2>.withTag({BlockEntityTag: {ifluxEnergy: 4000000}}), [<minecraft:redstone_block>, <minecraft:redstone_block>, <minecraft:redstone_block>,<minecraft:redstone_block>,<minecraft:redstone_block>,<minecraft:redstone_block>,<minecraft:redstone_block>,<minecraft:redstone_block>,<immersiveengineering:metal_device0:2>]);
