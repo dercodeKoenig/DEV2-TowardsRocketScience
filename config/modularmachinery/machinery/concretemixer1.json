@@ -7,7 +7,7 @@
             "x": -1,
             "y": 0,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -16,7 +16,7 @@
             "x": 2,
             "y": 4,
             "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -33,7 +33,7 @@
             "x": 2,
             "y": 2,
             "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -42,7 +42,7 @@
             "x": 1,
             "y": 0,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -51,7 +51,7 @@
             "x": -3,
             "y": 0,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -76,7 +76,7 @@
             "x": 3,
             "y": 0,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -85,7 +85,7 @@
             "x": 4,
             "y": 0,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -110,7 +110,7 @@
             "x": 4,
             "y": -1,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -119,7 +119,7 @@
             "x": 3,
             "y": -1,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -128,16 +128,25 @@
             "x": -4,
             "y": 1,
             "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
         },
         {
             "x": -3,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:conveyor@0"
+            ]
+        },
+        {
+            "x": -3,
             "y": 1,
             "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -146,7 +155,7 @@
             "x": -2,
             "y": 3,
             "z": 1,
-            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"facing":"3","conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
+            
             "elements": [
                 "immersiveengineering:conveyor@0"
             ]
@@ -171,7 +180,7 @@
             "x": 1,
             "y": -1,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -180,7 +189,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -197,7 +206,7 @@
             "x": -1,
             "y": 1,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -206,7 +215,7 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -215,7 +224,7 @@
             "x": -1,
             "y": -1,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -232,7 +241,7 @@
             "x": 2,
             "y": 3,
             "z": 1,
-            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"facing":"2","conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
+
             "elements": [
                 "immersiveengineering:conveyor@0"
             ]
@@ -241,7 +250,7 @@
             "x": 1,
             "y": 1,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -250,7 +259,7 @@
             "x": -3,
             "y": -1,
             "z": 0,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -275,7 +284,7 @@
             "x": 3,
             "y": 1,
             "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -284,7 +293,7 @@
             "x": 4,
             "y": 1,
             "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -293,7 +302,7 @@
             "x": 5,
             "y": 1,
             "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -302,7 +311,7 @@
             "x": -2,
             "y": 4,
             "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -319,7 +328,7 @@
             "x": -1,
             "y": 4,
             "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -328,7 +337,7 @@
             "x": 0,
             "y": 4,
             "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -345,7 +354,7 @@
             "x": 1,
             "y": 4,
             "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -362,7 +371,7 @@
             "x": 2,
             "y": 4,
             "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -435,7 +444,7 @@
             "x": -3,
             "y": -1,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -452,7 +461,7 @@
             "x": -1,
             "y": -1,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -461,7 +470,7 @@
             "x": 0,
             "y": -1,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -470,7 +479,7 @@
             "x": 1,
             "y": -1,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -487,7 +496,7 @@
             "x": 3,
             "y": -1,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -496,7 +505,7 @@
             "x": 4,
             "y": -1,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -513,7 +522,7 @@
             "x": -2,
             "y": 4,
             "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -522,7 +531,7 @@
             "x": -1,
             "y": 4,
             "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -531,7 +540,7 @@
             "x": 0,
             "y": 4,
             "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -540,7 +549,7 @@
             "x": 1,
             "y": 4,
             "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -557,7 +566,7 @@
             "x": 2,
             "y": 4,
             "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -566,7 +575,7 @@
             "x": -3,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -583,7 +592,7 @@
             "x": -1,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -592,7 +601,7 @@
             "x": 0,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -601,7 +610,7 @@
             "x": 1,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -618,7 +627,7 @@
             "x": 3,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -627,7 +636,7 @@
             "x": 4,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -644,7 +653,7 @@
             "x": -4,
             "y": 1,
             "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -661,7 +670,7 @@
             "x": -3,
             "y": 1,
             "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -670,7 +679,7 @@
             "x": -3,
             "y": -1,
             "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -687,7 +696,7 @@
             "x": -2,
             "y": -1,
             "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -696,7 +705,7 @@
             "x": -1,
             "y": 1,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -705,7 +714,7 @@
             "x": 0,
             "y": 1,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -714,7 +723,7 @@
             "x": -1,
             "y": -1,
             "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -723,7 +732,7 @@
             "x": 0,
             "y": -1,
             "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -732,7 +741,7 @@
             "x": 1,
             "y": 1,
             "z": 2,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -749,7 +758,7 @@
             "x": 1,
             "y": -1,
             "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -758,7 +767,7 @@
             "x": 3,
             "y": 1,
             "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -767,7 +776,7 @@
             "x": 2,
             "y": -1,
             "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -776,7 +785,7 @@
             "x": 4,
             "y": 1,
             "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -785,7 +794,7 @@
             "x": 3,
             "y": -1,
             "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -794,7 +803,7 @@
             "x": 5,
             "y": 1,
             "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -803,7 +812,7 @@
             "x": 4,
             "y": -1,
             "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -812,7 +821,7 @@
             "x": 5,
             "y": -1,
             "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
+
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -821,7 +830,7 @@
             "x": -4,
             "y": 0,
             "z": 1,
-            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"facing":"2","conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
+
             "elements": [
                 "immersiveengineering:conveyor@0"
             ]
@@ -830,7 +839,7 @@
             "x": -3,
             "y": 0,
             "z": 1,
-            "nbt": {"conveyorBeltSubtypeNBT":{"transferTickrate":"8","extractDirection":"3","dyeColour":"-1","direction":"0"},"facing":"2","conveyorBeltSubtype":"immersiveengineering:extract","id":"immersiveengineering:conveyorbelt"},
+
             "elements": [
                 "immersiveengineering:conveyor@0"
             ]
@@ -847,254 +856,265 @@
             "x": -2,
             "y": 0,
             "z": 1,
-            "nbt": {"busSize":"1","casingColor":"16730368","id":"minecraft:tileitemoutputbus"},
+
+            "elements": [
+                "immersiveengineering:conveyor@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockinputbus@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockinputbus@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration0@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration0@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "minecraft:hopper@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "minecraft:hopper@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration0@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "minecraft:hopper@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            
             "elements": [
                 "modularmachinery:blockoutputbus@1"
             ]
         },
         {
             "x": -1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "minecraft:glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "minecraft:glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "nbt": {"busSize":"1","casingColor":"16730368","id":"minecraft:tileiteminputbus"},
-            "elements": [
-                "modularmachinery:blockinputbus@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "minecraft:glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:storage@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "nbt": {"busSize":"1","casingColor":"16730368","id":"minecraft:tileiteminputbus"},
-            "elements": [
-                "modularmachinery:blockinputbus@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_decoration0@5"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_decoration0@5"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 0,
-            "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:sheetmetal_slab@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:sheetmetal_slab@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:storage@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:storage@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:storage@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:hopper@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:storage@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_decoration0@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:storage@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:hopper@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:sheetmetal_slab@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:sheetmetal_slab@8"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 1,
-            "z": 1,
-            "nbt": {"hatchSize":"1","casingColor":"16730368","id":"minecraft:tileenergyinputhatch"},
-            "elements": [
-                "modularmachinery:blockenergyinputhatch@1"
-            ]
-        },
-        {
-            "x": -2,
             "y": 4,
             "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:sheetmetal_slab@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 1,
-            "nbt": {"casingColor":"16730368","id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -1103,7 +1123,7 @@
             "x": 0,
             "y": 4,
             "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
@@ -1112,7 +1132,7 @@
             "x": 1,
             "y": 4,
             "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+
             "elements": [
                 "immersiveengineering:sheetmetal_slab@8"
             ]
