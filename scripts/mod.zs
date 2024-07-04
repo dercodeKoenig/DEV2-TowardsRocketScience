@@ -1,4 +1,6 @@
 
+import mods.immersiveengineering.Excavator;
+
 //#Remove ar pump
 recipes.remove(<advancedrocketry:blockpump>);
 
@@ -277,3 +279,10 @@ mods.jei.JEI.addItem(<immersiveengineering:conveyor>);
 recipes.addShapeless(<immersiveengineering:metal_device0>.withTag({BlockEntityTag: {ifluxEnergy: 100000}}), [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>,<immersiveengineering:metal_device0>]);
 recipes.addShapeless(<immersiveengineering:metal_device0:1>.withTag({BlockEntityTag: {ifluxEnergy: 1000000}}), [<minecraft:redstone_block>,<minecraft:redstone_block>,<minecraft:redstone_block>, <minecraft:redstone_block>, <minecraft:redstone_block>,<immersiveengineering:metal_device0:1>]);
 recipes.addShapeless(<immersiveengineering:metal_device0:2>.withTag({BlockEntityTag: {ifluxEnergy: 4000000}}), [<minecraft:redstone_block>, <minecraft:redstone_block>, <minecraft:redstone_block>,<minecraft:redstone_block>,<minecraft:redstone_block>,<minecraft:redstone_block>,<minecraft:redstone_block>,<minecraft:redstone_block>,<immersiveengineering:metal_device0:2>]);
+
+
+
+
+//mineral mix
+var magnetite = Excavator.getMineral("Magnetite");
+magnetite.addOre("oreTitanium", 0.5);

@@ -18,4 +18,12 @@ item.contenttweaker.modularium_plate.name=Modularium Plate
 
 tile.immersiveengineering.conveyor..name=Conveyor Structure
 
+item.contenttweaker.trade_buy_blaze.name=Buy Blaze Powder
+item.contenttweaker.trade_buy_coal.name=Buy Coal
+item.contenttweaker.trade_buy_food.name=Buy Food Supplies
+item.contenttweaker.trade_buy_wood.name=Buy Wood
+item.contenttweaker.trade_buy_enderpearl.name=Buy an Ender Pearl
+item.contenttweaker.trade_buy_seeds.name=Buy Seeds
+item.contenttweaker.trade_buy_rareseeds.name=Buy Rare Seeds
+
 
