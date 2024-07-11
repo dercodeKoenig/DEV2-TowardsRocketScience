@@ -1,4 +1,6 @@
-
+import crafttweaker.item.IItemStack;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockDefinition;
 import mods.immersiveengineering.Excavator;
 
 //#Remove ar pump
@@ -243,6 +245,13 @@ mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:1>
 
 //fix dilithium name (was fixed by AR)
 //<libvulpes:ore0>.displayName = "Dilithium";
+
+
+//fix stupid colony miner
+val dOre = <libvulpes:ore0> as IBlock;
+var dOreDef = dOre.definition;
+dOreDef.setHarvestLevel("pickaxe", 3);
+
 
 <buildcrafttransport:pipe_stone_fluid>.displayName = "improved fluid pipe";
 <buildcrafttransport:pipe_cobble_fluid>.displayName = "basic fluid pipe";

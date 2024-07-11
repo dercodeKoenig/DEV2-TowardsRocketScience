@@ -1,6 +1,14 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<advancedrocketry:oxidizerfueltank>);
+recipes.remove(<advancedrocketry:bipropellantfueltank>);
+recipes.remove(<advancedrocketry:fueltank>);
+recipes.remove(<advancedrocketry:advrocketmotor>);
+recipes.remove(<advancedrocketry:advbipropellantrocketmotor>);
+recipes.remove(<advancedrocketry:bipropellantrocketmotor>);
+recipes.remove(<advancedrocketry:rocketmotor>);
+recipes.remove(<advancedrocketry:nuclearrocketmotor>);
 recipes.remove(<modularmachinery:itemmodularium>);
 recipes.removeShapeless(<buildcrafttransport:pipe_diamond_wood_fluid>);
 recipes.removeShapeless(<buildcrafttransport:pipe_clay_fluid>);
@@ -94,6 +102,9 @@ recipes.remove(<buildcrafttransport:pipe_stone_item>);
 recipes.remove(<buildcrafttransport:pipe_wood_item>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<advancedrocketry:fueltank>, [[null, null, null],[null, <advancedrocketry:oxidizerfueltank>, null], [null, null, null]]);
+recipes.addShaped(<advancedrocketry:oxidizerfueltank>, [[null, null, null],[null, <advancedrocketry:bipropellantfueltank>, null], [null, null, null]]);
+recipes.addShaped(<advancedrocketry:bipropellantfueltank>, [[null, null, null],[null, <advancedrocketry:fueltank>, null], [null, null, null]]);
 recipes.addShaped(<buildcrafttransport:pipe_diamond_wood_fluid>*3, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],[<buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
 recipes.addShaped(<buildcrafttransport:pipe_iron_fluid>*3, [[<immersiveengineering:metal:39>, <immersiveengineering:metal:39>, <immersiveengineering:metal:39>],[<buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>], [<immersiveengineering:metal:39>, <immersiveengineering:metal:39>, <immersiveengineering:metal:39>]]);
 recipes.addShaped(<buildcrafttransport:pipe_gold_fluid>*3, [[<immersiveengineering:metal:40>, <immersiveengineering:metal:40>, <immersiveengineering:metal:40>],[<buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>, <buildcrafttransport:pipe_stone_fluid>], [<immersiveengineering:metal:40>, <immersiveengineering:metal:40>, <immersiveengineering:metal:40>]]);
