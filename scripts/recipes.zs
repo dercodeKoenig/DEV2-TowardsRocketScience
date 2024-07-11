@@ -102,6 +102,8 @@ recipes.remove(<buildcrafttransport:pipe_stone_item>);
 recipes.remove(<buildcrafttransport:pipe_wood_item>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<railcraft:track_outfitted>, [[null, null, null],[null, <structurize:sceptergold>.reuse(), null], [null, <railcraft:track_flex_strap_iron>, null]]);
+recipes.addShaped(<twilightforest:hedge>, [[null, null, null],[<ore:treeLeaves>, <ore:treeLeaves>, null], [null, null, null]]);
 recipes.addShaped(<advancedrocketry:fueltank>, [[null, null, null],[null, <advancedrocketry:oxidizerfueltank>, null], [null, null, null]]);
 recipes.addShaped(<advancedrocketry:oxidizerfueltank>, [[null, null, null],[null, <advancedrocketry:bipropellantfueltank>, null], [null, null, null]]);
 recipes.addShaped(<advancedrocketry:bipropellantfueltank>, [[null, null, null],[null, <advancedrocketry:fueltank>, null], [null, null, null]]);

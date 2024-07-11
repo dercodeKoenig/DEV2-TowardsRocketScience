@@ -26,6 +26,6 @@ item.contenttweaker.trade_buy_enderpearl.name=Buy an Ender Pearl
 item.contenttweaker.trade_buy_seeds.name=Buy Seeds
 item.contenttweaker.trade_buy_rareseeds.name=Buy Rare Seeds
 
-item.contenttweaker.trade_buy_rareseeds.fundtoken=FundToken
+item.contenttweaker.fundtoken.name=FundToken
 
 
