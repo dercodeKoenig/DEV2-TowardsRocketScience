@@ -50,8 +50,6 @@ recipes.remove(<advancedrocketry:terraformer>);
 recipes.remove(<advancedrocketry:deployablerocketbuilder>);
 recipes.remove(<advancedrocketry:rocketbuilder>);
 recipes.remove(<advancedrocketry:drill>);
-recipes.remove(<advancedrocketry:observatory>);
-recipes.remove(<advancedrocketry:satellitebuilder>);
 recipes.remove(<railcraft:locomotive_steam_solid>);
 recipes.remove(<railcraft:locomotive_electric>);
 recipes.remove(<tconstruct:wood_rail_trapdoor>);
@@ -102,6 +100,7 @@ recipes.remove(<buildcrafttransport:pipe_stone_item>);
 recipes.remove(<buildcrafttransport:pipe_wood_item>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<modularmachinery:blockinputbus:5>, [[<ore:stickSteel>, <ore:plateSteel>, <ore:stickSteel>],[<ore:plateSteel>, <modularmachinery:blockinputbus:1>, <ore:plateSteel>], [<ore:stickSteel>, <ore:plateSteel>, <ore:stickSteel>]]);
 recipes.addShaped(<railcraft:track_outfitted>, [[null, null, null],[null, <structurize:sceptergold>.reuse(), null], [null, <railcraft:track_flex_strap_iron>, null]]);
 recipes.addShaped(<twilightforest:hedge>, [[null, null, null],[<ore:treeLeaves>, <ore:treeLeaves>, null], [null, null, null]]);
 recipes.addShaped(<advancedrocketry:fueltank>, [[null, null, null],[null, <advancedrocketry:oxidizerfueltank>, null], [null, null, null]]);
@@ -120,7 +119,6 @@ recipes.addShaped(<buildcrafttransport:pipe_wood_item>, [[<ore:plankWood>, <ore:
 recipes.addShaped(<buildcrafttransport:pipe_clay_item>, [[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],[<minecraft:glass>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}).onlyWithTag({conveyorType: "immersiveengineering:conveyor"}), <minecraft:glass>], [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]);
 recipes.addShaped(<railcraft:rail>*3, [[null, <immersiveengineering:material:1>, null],[null, <immersiveengineering:material:1>, null], [null, <immersiveengineering:material:1>, null]]);
 recipes.addShaped(<advancedrocketry:satelliteidchip>, [[null, null, null],[<contenttweaker:plastic>, <advancedrocketry:ic>, <contenttweaker:plastic>], [null, null, null]]);
-recipes.addShaped(<advancedrocketry:satellite>, [[<libvulpes:productsheet:9>, <contenttweaker:plastic>, <libvulpes:productsheet:9>],[<libvulpes:productrod:7>, <advancedrocketry:ic:3>, <libvulpes:productrod:7>], [<libvulpes:productsheet:9>, <contenttweaker:plastic>, <libvulpes:productsheet:9>]]);
 recipes.addShaped(<advancedrocketry:satellitepowersource>, [[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>],[<libvulpes:productplate:2>, <libvulpes:productplate:2>, <libvulpes:productplate:2>], [<contenttweaker:plastic>, <contenttweaker:plastic>, <contenttweaker:plastic>]]);
 recipes.addShaped(<libvulpes:linker>, [[null, <minecraft:redstone>, null],[<contenttweaker:plastic>, <minecraft:gold_ingot>, <contenttweaker:plastic>], [<contenttweaker:plastic>, <minecraft:iron_ingot>, <contenttweaker:plastic>]]);
 recipes.addShaped(<advancedrocketry:wirelesstransciever>, [[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>],[<minecraft:redstone>, <advancedrocketry:dataunit>, <minecraft:redstone>], [<contenttweaker:plastic>, <minecraft:redstone>, <contenttweaker:plastic>]]);

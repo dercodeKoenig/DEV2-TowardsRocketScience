@@ -26,6 +26,11 @@ item.contenttweaker.trade_buy_enderpearl.name=Buy an Ender Pearl
 item.contenttweaker.trade_buy_seeds.name=Buy Seeds
 item.contenttweaker.trade_buy_rareseeds.name=Buy Rare Seeds
 
-item.contenttweaker.fundtoken.name=FundToken
+item.contenttweaker.researchtoken.name=The Research Project
+item.contenttweaker.advresearchtoken.name=Advanced Rocket Science
+item.contenttweaker.observatoryreseachtoken.name=Research into Optical Systems
+item.contenttweaker.stationreseachtoken.name=Research of Space Station Technology
+item.contenttweaker.miningreseachtoken.name=Research of Asteroid Mining
+
 
 
