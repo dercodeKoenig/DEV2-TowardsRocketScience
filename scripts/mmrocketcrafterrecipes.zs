@@ -7,7 +7,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder("rocketassembler", "rocketcrafter
 .addItemInput(<libvulpes:productrod:7>*12)
 .addItemInput(<advancedrocketry:misc>)
 .addItemInput(<libvulpes:structuremachine>)
-.addItemInput(<contenttweaker:researchtoken>).setChance(0)
 .addItemOutput(<advancedrocketry:rocketbuilder>)
 .build();
 
@@ -16,10 +15,19 @@ mods.modularmachinery.RecipeBuilder.newBuilder("satellite", "rocketcrafter", 200
 .addItemInput(<libvulpes:productrod:7>*8)
 .addItemInput(<advancedrocketry:ic:3>*2)
 .addItemInput(<libvulpes:productsheet:9>*16)
-.addItemInput(<contenttweaker:observatoryreseachtoken>).setChance(0)
+.addItemInput(<contenttweaker:observatoryresearchtoken>).setChance(0)
 .addItemOutput(<advancedrocketry:satellite>)
 .build();
 
+mods.modularmachinery.RecipeBuilder.newBuilder("drill", "rocketcrafter", 200)
+.addItemInput(<libvulpes:productgear:6>*6)
+.addItemInput(<libvulpes:structuremachine>)
+.addItemInput(<minecraft:diamond_pickaxe>)
+.addItemInput(<contenttweaker:miningresearchtoken>).setChance(0)
+.addItemOutput(<advancedrocketry:drill>)
+.build();
+
+recipes.addShaped(<advancedrocketry:stationbuilder>, [[<libvulpes:productgear:7>, <advancedrocketry:misc>, <libvulpes:productgear:7>],[<libvulpes:productgear:7>, <advancedrocketry:rocketbuilder>, <libvulpes:productgear:7>], [<libvulpes:productgear:7>, <contenttweaker:stationresearchtoken>.reuse(), <libvulpes:productgear:7>]]);
 
 
 

@@ -5,39 +5,13 @@
 	"color":"E2EAF4",
 
     "parts": [
-        {
-            "x": 10,
-            "y": -6,
-            "z": -17,
-
-            "elements": [
-                "modularmachinery:blockinputbus@5"
-            ]
-        },
-        {
-            "x": 9,
-            "y": -6,
-            "z": -17,
-
-            "elements": [
-                "modularmachinery:blockinputbus@5"
-            ]
-        },
+       
         {
             "x": 1,
             "y": 0,
             "z": 0,
             "elements": [
                 "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 8,
-            "y": -6,
-            "z": -17,
-
-            "elements": [
-                "modularmachinery:blockinputbus@5"
             ]
         },
         {
@@ -57,12 +31,125 @@
             ]
         },
         {
-            "x": 7,
+            "x": 5,
             "y": -6,
             "z": -17,
 
             "elements": [
                 "modularmachinery:blockinputbus@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": -17,
+
+            "elements": [
+                "modularmachinery:blockinputbus@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -8,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -8,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -8,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -8,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -8,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -8,
+            "elements": [
+                "minecraft:quartz_block@2"
             ]
         },
         {
@@ -75,111 +162,7 @@
             ]
         },
         {
-            "x": 5,
-            "y": 2,
-            "z": -8,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": -8,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": -8,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 1,
-            "z": -8,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 3,
-            "z": -8,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": -8,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": -8,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 14,
+            "x": 7,
             "y": -6,
             "z": -17,
 
@@ -188,7 +171,7 @@
             ]
         },
         {
-            "x": 13,
+            "x": 8,
             "y": -6,
             "z": -17,
 
@@ -202,24 +185,6 @@
             "z": 2,
             "elements": [
                 "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 12,
-            "y": -6,
-            "z": -17,
-
-            "elements": [
-                "modularmachinery:blockinputbus@5"
-            ]
-        },
-        {
-            "x": 11,
-            "y": -6,
-            "z": -17,
-
-            "elements": [
-                "modularmachinery:blockinputbus@5"
             ]
         },
         {

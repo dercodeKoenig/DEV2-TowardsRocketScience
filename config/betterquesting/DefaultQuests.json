@@ -960,6 +960,44 @@
       "rewards:9": {}
     },
     "16:10": {
+      "questID:3": 16,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "modularmachinery:blockcontroller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Rocket Factory",
+          "desc:8": "The rocket factory will be the main production and research facility for our rocket projects.\n\nIt contains all the machines we need to manufacture advanced rocket parts, a complete fuel processing area and connection to a railway network. \n\nYou need to find a large area to construct it. The colony builder will assist you!\n\nUse the building tool to place the structure!\n\nNote that your builder has some difficulties when placing conveyor belts and connectors. There may be some other small errors in the build but you can fix this yourself. \n\nAlso the builder is extremly stupid and tries to jump over fences... he will leave some parts open to not get stuck. - But at least he works for free!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "17:10": {
       "questID:3": 17,
       "preRequisites:11": [
         9
@@ -992,7 +1030,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "17:10": {
+    "18:10": {
       "questID:3": 18,
       "preRequisites:11": [
         54
@@ -1079,7 +1117,313 @@
       },
       "rewards:9": {}
     },
-    "18:10": {
+    "19:10": {
+      "questID:3": 19,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:tool",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "A Big Build!",
+          "desc:8": "I can imagine... We have a gigantic project ahead of us! \n\nWe\u0027re going to build a Rocket Factory like no one has ever seen before. \n\nAnd we need a lot of materials!  \n\nI have a little list of what we will need - in addition to tons of concrete and glas and some other building materials!\n\nNote: \nCraft Conveyor Structures from Conveyor Belts using the Building Tool.\nCraft Invalid Iron Tracks from Strap Iron Tracks using the Building Tool."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:chest",
+              "Count:3": 28,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "railcraft:tank_iron_gauge",
+              "Count:3": 44,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:lever",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "immersiveengineering:conveyor",
+              "Count:3": 20,
+              "tag:10": {
+                "conveyorType:8": "immersiveengineering:conveyor"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "minecraft:trapdoor",
+              "Count:3": 22,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "modularmachinery:blockoutputbus",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "libvulpes:enhancedmotor",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "twilightforest:hedge",
+              "Count:3": 22,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "8:10": {
+              "id:8": "libvulpes:forgepowerinput",
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "9:10": {
+              "id:8": "minecraft:sign",
+              "Count:3": 63,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "10:10": {
+              "id:8": "modularmachinery:blockcontroller",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "11:10": {
+              "id:8": "modularmachinery:blockinputbus",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "12:10": {
+              "id:8": "minecraft:cauldron",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "13:10": {
+              "id:8": "railcraft:actuator",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "14:10": {
+              "id:8": "railcraft:manipulator",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "15:10": {
+              "id:8": "buildcrafttransport:pipe_iron_item",
+              "Count:3": 167,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "16:10": {
+              "id:8": "libvulpes:hatch",
+              "Count:3": 6,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "17:10": {
+              "id:8": "railcraft:tank_iron_valve",
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "18:10": {
+              "id:8": "immersiveengineering:metal_decoration1",
+              "Count:3": 28,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "19:10": {
+              "id:8": "railcraft:manipulator",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "20:10": {
+              "id:8": "immersiveengineering:metal_decoration0",
+              "Count:3": 3,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "21:10": {
+              "id:8": "immersiveengineering:connector",
+              "Count:3": 12,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "22:10": {
+              "id:8": "railcraft:manipulator",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "23:10": {
+              "id:8": "immersiveengineering:connector",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "24:10": {
+              "id:8": "immersiveengineering:metal_decoration1",
+              "Count:3": 6,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "25:10": {
+              "id:8": "libvulpes:hatch",
+              "Count:3": 7,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "26:10": {
+              "id:8": "modularmachinery:blockoutputbus",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "27:10": {
+              "id:8": "railcraft:track_flex_strap_iron",
+              "Count:3": 187,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "28:10": {
+              "id:8": "modularmachinery:blockinputbus",
+              "Count:3": 5,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "29:10": {
+              "id:8": "modularmachinery:blockinputbus",
+              "Count:3": 5,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "30:10": {
+              "id:8": "libvulpes:structuremachine",
+              "Count:3": 40,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "31:10": {
+              "id:8": "minecraft:redstone_lamp",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "32:10": {
+              "id:8": "libvulpes:hatch",
+              "Count:3": 5,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "33:10": {
+              "id:8": "libvulpes:hatch",
+              "Count:3": 5,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "34:10": {
+              "id:8": "modularmachinery:blockcasing",
+              "Count:3": 17,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "35:10": {
+              "id:8": "libvulpes:motor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "36:10": {
+              "id:8": "immersiveengineering:metal_decoration2",
+              "Count:3": 12,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "37:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "38:10": {
+              "id:8": "railcraft:manipulator",
+              "Count:3": 8,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "39:10": {
+              "id:8": "advancedrocketry:sawblade",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "40:10": {
+              "id:8": "immersiveengineering:metal_device1",
+              "Count:3": 63,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "41:10": {
+              "id:8": "railcraft:tank_iron_wall",
+              "Count:3": 171,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "42:10": {
+              "id:8": "immersiveengineering:storage",
+              "Count:3": 15,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "20:10": {
       "questID:3": 20,
       "preRequisites:11": [
         12
@@ -1125,7 +1469,7 @@
         }
       }
     },
-    "19:10": {
+    "21:10": {
       "questID:3": 21,
       "preRequisites:11": [
         9
@@ -1183,7 +1527,70 @@
         }
       }
     },
-    "20:10": {
+    "22:10": {
+      "questID:3": 22,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "advancedrocketry:concrete",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Concrete Production I",
+          "desc:8": "The main materials used to produce concrete are Sand, Gravel and Clay.\n\nAll of them can be found in Silt Veins. \n\nUse the Core Sample Drill to find one and build an Excavator to extract the materials!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:sand",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:clay",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:gravel",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "23:10": {
       "questID:3": 23,
       "preRequisites:11": [
         9
@@ -1241,10 +1648,10 @@
         }
       }
     },
-    "21:10": {
-      "questID:3": 25,
+    "24:10": {
+      "questID:3": 24,
       "preRequisites:11": [
-        74
+        22
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1253,7 +1660,59 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:sheetmetal",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Concrete Production II",
+          "desc:8": "Sand, Gravel and Clay can be mixed together in the Concrete Plant. \n\nYou can build the structure with the help of the colony builder."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "advancedrocketry:concrete",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "25:10": {
+      "questID:3": 25,
+      "preRequisites:11": [
+        74,
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "CHAIN",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:redstone_torch",
@@ -1268,7 +1727,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "The Research Project",
-          "desc:8": "I have found a few scientists who have agreed to work on a research project to investigate rocket science. But the research is expensive and we will need a lot of materials..."
+          "desc:8": "I have found a few scientists who have agreed to work on a research project to investigate rocket science. But the research is expensive and we will need a lot of materials...\n\nFor the start, deliver the following materials to the Rocket Factory:\n\n- 28 Stacks Redstone\n- 8 Stacks Steel Rods from the Lathe\n- 4 Stacks Aluminum Sheets\n- a Stack of Diamond Chipsets\n- 16 Stacks of Copper\n- 16 Stacks of Electrum"
         }
       },
       "tasks:9": {
@@ -1278,54 +1737,12 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:redstone_block",
-              "Count:3": 200,
+              "id:8": "contenttweaker:researchtoken",
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "immersiveengineering:metal_decoration0",
-              "Count:3": 50,
-              "Damage:2": 3,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "immersiveengineering:metal_decoration0",
-              "Count:3": 50,
-              "Damage:2": 4,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "immersiveengineering:metal_decoration0",
-              "Count:3": 50,
-              "Damage:2": 5,
-              "OreDict:8": ""
-            },
-            "4:10": {
-              "id:8": "immersiveengineering:storage",
-              "Count:3": 200,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "5:10": {
-              "id:8": "immersiveengineering:storage",
-              "Count:3": 100,
-              "Damage:2": 7,
-              "OreDict:8": ""
-            },
-            "6:10": {
-              "id:8": "libvulpes:productrod",
-              "Count:3": 300,
-              "Damage:2": 6,
-              "OreDict:8": ""
-            },
-            "7:10": {
-              "id:8": "libvulpes:productsheet",
-              "Count:3": 300,
-              "Damage:2": 9,
               "OreDict:8": ""
             }
           },
@@ -1334,7 +1751,7 @@
       },
       "rewards:9": {}
     },
-    "22:10": {
+    "26:10": {
       "questID:3": 26,
       "preRequisites:11": [
         74
@@ -1404,7 +1821,7 @@
         }
       }
     },
-    "23:10": {
+    "27:10": {
       "questID:3": 27,
       "preRequisites:11": [
         286
@@ -1455,7 +1872,7 @@
       },
       "rewards:9": {}
     },
-    "24:10": {
+    "28:10": {
       "questID:3": 28,
       "preRequisites:11": [],
       "properties:10": {
@@ -1486,7 +1903,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "25:10": {
+    "29:10": {
       "questID:3": 29,
       "preRequisites:11": [
         0
@@ -1532,7 +1949,7 @@
         }
       }
     },
-    "26:10": {
+    "30:10": {
       "questID:3": 30,
       "preRequisites:11": [
         85
@@ -1559,7 +1976,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Rocket Assembling Machine",
-          "desc:8": "With the research done we can now ask the scientists to build a rocket assembling machine for us.\n\nWe just need to provide the materials.\nAnd pay them of course!\n\nThe machine needs to be placed diagonally next to a launch pad."
+          "desc:8": "With the research done we can now use the Rocket Science Crafter in our factory to build a Rocket Assembling Machine.\n\nThe assembling machine needs to be placed diagonally next to a launch pad."
         }
       },
       "tasks:9": {
@@ -1569,41 +1986,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "advancedrocketry:misc",
+              "id:8": "advancedrocketry:rocketbuilder",
               "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "libvulpes:productrod",
-              "Count:3": 2,
-              "Damage:2": 7,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "libvulpes:productgear",
-              "Count:3": 2,
-              "Damage:2": 7,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "libvulpes:structuremachine",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "4:10": {
-              "id:8": "advancedrocketry:ic",
-              "Count:3": 2,
-              "Damage:2": 3,
-              "OreDict:8": ""
-            },
-            "5:10": {
-              "id:8": "minecraft:redstone",
-              "Count:3": 128,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1611,22 +1998,9 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "advancedrocketry:rocketbuilder",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
-    "27:10": {
+    "31:10": {
       "questID:3": 31,
       "preRequisites:11": [
         14,
@@ -1727,7 +2101,7 @@
         }
       }
     },
-    "28:10": {
+    "32:10": {
       "questID:3": 32,
       "preRequisites:11": [
         73,
@@ -1762,7 +2136,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "29:10": {
+    "33:10": {
       "questID:3": 33,
       "preRequisites:11": [
         47
@@ -1837,7 +2211,359 @@
       },
       "rewards:9": {}
     },
-    "30:10": {
+    "34:10": {
+      "questID:3": 34,
+      "preRequisites:11": [
+        24
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:dye",
+            "Count:3": 1,
+            "Damage:2": 7,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Concrete Production III",
+          "desc:8": "Concrete comes in many different colors. \n\nA Concrete Mixer can mix Dye and Concrete to make White Concrete, Black Concrete, Red Con.... and so on.\n\nThe builder can construct the Concrete Mixer for you!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "advancedrocketry:concrete",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "quark:root_dye",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "biomesoplenty:white_dye",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "35:10": {
+      "questID:3": 35,
+      "preRequisites:11": [
+        34
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:concrete",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Concrete Production IV",
+          "desc:8": "The colored Concrete Powder is now almost ready to be used in buildings. \n\nBut it is annoying to always water it. The Concrete Brick Machine is specialized to produce Dyed Concrete from Concrete Powder.\n\nThe builder can help you to construct the machine."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:concrete",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:concrete",
+              "Count:3": 64,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "36:10": {
+      "questID:3": 36,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:quartz",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Quarzite",
+          "desc:8": "A mineral vein that provides tons of quartz. \n\nIt can be very useful in case you need a lot of white dye..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:quartz",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "37:10": {
+      "questID:3": 37,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:redstone_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Cinnabar",
+          "desc:8": "This mineral vein contains redstone. It can be used to build complex mechanisms and is a widely accepted currency."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "38:10": {
+      "questID:3": 38,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Coal \u0026 Iron",
+          "desc:8": "Coal and iron are used to produce steel, one of the most important materials for the construction of heavy machinery.\n\nMake sure you always have some of it in stock!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:coal",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "39:10": {
+      "questID:3": 39,
+      "preRequisites:11": [
+        26
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 1,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "HIDDEN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "bridge_factory",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "40:10": {
+      "questID:3": 40,
+      "preRequisites:11": [
+        85
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 1,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "HIDDEN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "xp reward",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 20,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "41:10": {
       "questID:3": 43,
       "preRequisites:11": [
         44
@@ -1883,7 +2609,7 @@
         }
       }
     },
-    "31:10": {
+    "42:10": {
       "questID:3": 44,
       "preRequisites:11": [],
       "properties:10": {
@@ -1939,7 +2665,7 @@
         }
       }
     },
-    "32:10": {
+    "43:10": {
       "questID:3": 45,
       "preRequisites:11": [
         90
@@ -1966,7 +2692,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Advanced Rocket Science Research",
-          "desc:8": "Fund a large scale research program to investigate advanced rocket science."
+          "desc:8": "Fund a large scale research program to investigate advanced rocket science.\n\n64 Stacks of Redstone should be enough... (for now)."
         }
       },
       "tasks:9": {
@@ -1976,11 +2702,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:redstone",
-              "Count:3": 4000,
+              "id:8": "contenttweaker:advresearchtoken",
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1997,7 +2723,7 @@
         }
       }
     },
-    "33:10": {
+    "44:10": {
       "questID:3": 46,
       "preRequisites:11": [
         17
@@ -2060,7 +2786,7 @@
       },
       "rewards:9": {}
     },
-    "34:10": {
+    "45:10": {
       "questID:3": 47,
       "preRequisites:11": [
         17
@@ -2111,7 +2837,7 @@
       },
       "rewards:9": {}
     },
-    "35:10": {
+    "46:10": {
       "questID:3": 48,
       "preRequisites:11": [
         17
@@ -2168,7 +2894,7 @@
       },
       "rewards:9": {}
     },
-    "36:10": {
+    "47:10": {
       "questID:3": 49,
       "preRequisites:11": [
         18
@@ -2201,7 +2927,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "37:10": {
+    "48:10": {
       "questID:3": 50,
       "preRequisites:11": [
         43
@@ -2265,7 +2991,7 @@
         }
       }
     },
-    "38:10": {
+    "49:10": {
       "questID:3": 51,
       "preRequisites:11": [
         43
@@ -2329,7 +3055,7 @@
         }
       }
     },
-    "39:10": {
+    "50:10": {
       "questID:3": 52,
       "preRequisites:11": [
         44
@@ -2380,7 +3106,7 @@
       },
       "rewards:9": {}
     },
-    "40:10": {
+    "51:10": {
       "questID:3": 53,
       "preRequisites:11": [
         111
@@ -2449,7 +3175,7 @@
       },
       "rewards:9": {}
     },
-    "41:10": {
+    "52:10": {
       "questID:3": 54,
       "preRequisites:11": [
         47
@@ -2500,7 +3226,7 @@
       },
       "rewards:9": {}
     },
-    "42:10": {
+    "53:10": {
       "questID:3": 55,
       "preRequisites:11": [
         51
@@ -2557,7 +3283,7 @@
       },
       "rewards:9": {}
     },
-    "43:10": {
+    "54:10": {
       "questID:3": 56,
       "preRequisites:11": [
         54
@@ -2650,7 +3376,7 @@
       },
       "rewards:9": {}
     },
-    "44:10": {
+    "55:10": {
       "questID:3": 57,
       "preRequisites:11": [
         17
@@ -2701,7 +3427,7 @@
       },
       "rewards:9": {}
     },
-    "45:10": {
+    "56:10": {
       "questID:3": 58,
       "preRequisites:11": [
         56,
@@ -2783,7 +3509,7 @@
       },
       "rewards:9": {}
     },
-    "46:10": {
+    "57:10": {
       "questID:3": 59,
       "preRequisites:11": [
         72
@@ -2842,7 +3568,7 @@
       },
       "rewards:9": {}
     },
-    "47:10": {
+    "58:10": {
       "questID:3": 60,
       "preRequisites:11": [
         71
@@ -2941,7 +3667,7 @@
       },
       "rewards:9": {}
     },
-    "48:10": {
+    "59:10": {
       "questID:3": 61,
       "preRequisites:11": [
         58
@@ -3007,7 +3733,7 @@
         }
       }
     },
-    "49:10": {
+    "60:10": {
       "questID:3": 62,
       "preRequisites:11": [
         58
@@ -3073,7 +3799,7 @@
         }
       }
     },
-    "50:10": {
+    "61:10": {
       "questID:3": 63,
       "preRequisites:11": [
         72
@@ -3132,7 +3858,7 @@
       },
       "rewards:9": {}
     },
-    "51:10": {
+    "62:10": {
       "questID:3": 64,
       "preRequisites:11": [
         61,
@@ -3214,7 +3940,7 @@
       },
       "rewards:9": {}
     },
-    "52:10": {
+    "63:10": {
       "questID:3": 65,
       "preRequisites:11": [
         61,
@@ -3327,7 +4053,7 @@
       },
       "rewards:9": {}
     },
-    "53:10": {
+    "64:10": {
       "questID:3": 66,
       "preRequisites:11": [
         62
@@ -3438,7 +4164,7 @@
       },
       "rewards:9": {}
     },
-    "54:10": {
+    "65:10": {
       "questID:3": 67,
       "preRequisites:11": [
         62
@@ -3489,7 +4215,7 @@
       },
       "rewards:9": {}
     },
-    "55:10": {
+    "66:10": {
       "questID:3": 68,
       "preRequisites:11": [
         64,
@@ -3531,7 +4257,7 @@
         }
       }
     },
-    "56:10": {
+    "67:10": {
       "questID:3": 69,
       "preRequisites:11": [
         286
@@ -3582,7 +4308,7 @@
       },
       "rewards:9": {}
     },
-    "57:10": {
+    "68:10": {
       "questID:3": 70,
       "preRequisites:11": [
         51
@@ -3639,7 +4365,7 @@
       },
       "rewards:9": {}
     },
-    "58:10": {
+    "69:10": {
       "questID:3": 71,
       "preRequisites:11": [
         47
@@ -3726,7 +4452,7 @@
       },
       "rewards:9": {}
     },
-    "59:10": {
+    "70:10": {
       "questID:3": 72,
       "preRequisites:11": [
         17
@@ -3759,7 +4485,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "60:10": {
+    "71:10": {
       "questID:3": 73,
       "preRequisites:11": [
         18
@@ -3792,7 +4518,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "61:10": {
+    "72:10": {
       "questID:3": 74,
       "preRequisites:11": [
         32
@@ -3836,7 +4562,7 @@
         }
       }
     },
-    "62:10": {
+    "73:10": {
       "questID:3": 75,
       "preRequisites:11": [
         46
@@ -3893,7 +4619,7 @@
       },
       "rewards:9": {}
     },
-    "63:10": {
+    "74:10": {
       "questID:3": 76,
       "preRequisites:11": [
         77
@@ -3950,7 +4676,7 @@
       },
       "rewards:9": {}
     },
-    "64:10": {
+    "75:10": {
       "questID:3": 77,
       "preRequisites:11": [
         15
@@ -4007,7 +4733,7 @@
         }
       }
     },
-    "65:10": {
+    "76:10": {
       "questID:3": 78,
       "preRequisites:11": [
         76
@@ -4058,7 +4784,7 @@
       },
       "rewards:9": {}
     },
-    "66:10": {
+    "77:10": {
       "questID:3": 79,
       "preRequisites:11": [
         85
@@ -4085,7 +4811,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Investigating Optical Systems",
-          "desc:8": "Research into optical systems will allow us to develop complex lenses. \n\nWe will need a ton of glass and for this project."
+          "desc:8": "Research into optical systems will allow us to develop complex lenses. \n\nWe will need a ton of glass and for this project.\n\nYou need to deliver the following materials to the research section of the factory:\n\n- 48 Stacks of Glass\n- 16 Stacks of Redstone"
         }
       },
       "tasks:9": {
@@ -4095,17 +4821,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:glass",
-              "Count:3": 2000,
-              "Damage:2": 0,
-              "OreDict:8": "blockGlass"
-            },
-            "1:10": {
-              "id:8": "minecraft:redstone",
-              "Count:3": 1000,
+              "id:8": "contenttweaker:observatoryresearchtoken",
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -4115,7 +4835,7 @@
       },
       "rewards:9": {}
     },
-    "67:10": {
+    "78:10": {
       "questID:3": 80,
       "preRequisites:11": [
         78
@@ -4166,10 +4886,9 @@
       },
       "rewards:9": {}
     },
-    "68:10": {
+    "79:10": {
       "questID:3": 81,
       "preRequisites:11": [
-        155,
         79
       ],
       "properties:10": {
@@ -4194,7 +4913,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The Observatory",
-          "desc:8": "The Observatory is a large structure that is capable of peering out into the cosmos and pinpoint distant asteroid or abandoned starships that may contain valuable materials. It\u0027s primary function is to locate these distant objects and program their coordinates into asteroid chips.\n\nIn order for the Observatory to function, the structure must have at least one data bus with at least 100 distance data. \n\nWe can ask the scientists to assist us in building this machine."
+          "desc:8": "The Observatory is a large structure that is capable of peering out into the cosmos and pinpoint distant asteroid or abandoned starships that may contain valuable materials. It\u0027s primary function is to locate these distant objects and program their coordinates into asteroid chips.\n\nIn order for the Observatory to function, the structure must have at least one data bus with at least 100 distance data. "
         }
       },
       "tasks:9": {
@@ -4204,28 +4923,10 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "advancedrocketry:misc",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "immersiveengineering:material",
-              "Count:3": 4,
-              "Damage:2": 1,
-              "OreDict:8": "stickIron"
-            },
-            "2:10": {
-              "id:8": "minecraft:glass_pane",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "paneGlass"
-            },
-            "3:10": {
-              "id:8": "libvulpes:structuremachine",
+              "id:8": "advancedrocketry:observatory",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -4234,22 +4935,9 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "advancedrocketry:observatory",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
-    "69:10": {
+    "80:10": {
       "questID:3": 82,
       "preRequisites:11": [
         76
@@ -4300,7 +4988,7 @@
       },
       "rewards:9": {}
     },
-    "70:10": {
+    "81:10": {
       "questID:3": 83,
       "preRequisites:11": [
         76
@@ -4351,7 +5039,7 @@
       },
       "rewards:9": {}
     },
-    "71:10": {
+    "82:10": {
       "questID:3": 84,
       "preRequisites:11": [
         82
@@ -4402,11 +5090,10 @@
       },
       "rewards:9": {}
     },
-    "72:10": {
+    "83:10": {
       "questID:3": 85,
       "preRequisites:11": [
-        25,
-        141
+        25
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4415,7 +5102,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:nether_star",
@@ -4430,7 +5117,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Results",
-          "desc:8": "Scientists have found a way to assemble functioning rockets. However, it is a long way between building rockets and terraforming a moon. \n\nFurther research will be necessary.\n"
+          "desc:8": "Scientists have found a way to assemble functioning rockets. However, it is a long way between building rockets and terraforming a moon. \n\nFurther research will be necessary.\n\nPlace the Research Documents inside the desk so it is ready to be used for future research!\n"
         }
       },
       "tasks:9": {
@@ -4439,19 +5126,11 @@
           "taskID:8": "bq_standard:checkbox"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "amount:3": 20,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 0
-        }
-      }
+      "rewards:9": {}
     },
-    "73:10": {
+    "84:10": {
       "questID:3": 86,
       "preRequisites:11": [
-        155,
         79
       ],
       "properties:10": {
@@ -4486,47 +5165,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "advancedrocketry:sawblade",
+              "id:8": "advancedrocketry:satellitebuilder",
               "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:anvil",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "advancedrocketry:ic",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "libvulpes:motor",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "4:10": {
-              "id:8": "libvulpes:structuremachine",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "5:10": {
-              "id:8": "libvulpes:productplate",
-              "Count:3": 2,
-              "Damage:2": 7,
-              "OreDict:8": ""
-            },
-            "6:10": {
-              "id:8": "minecraft:redstone",
-              "Count:3": 128,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -4534,22 +5177,9 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "advancedrocketry:satellitebuilder",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
-    "74:10": {
+    "85:10": {
       "questID:3": 87,
       "preRequisites:11": [
         266
@@ -4600,7 +5230,7 @@
       },
       "rewards:9": {}
     },
-    "75:10": {
+    "86:10": {
       "questID:3": 88,
       "preRequisites:11": [
         85
@@ -4657,7 +5287,7 @@
       },
       "rewards:9": {}
     },
-    "76:10": {
+    "87:10": {
       "questID:3": 89,
       "preRequisites:11": [
         85
@@ -4716,7 +5346,7 @@
       },
       "rewards:9": {}
     },
-    "77:10": {
+    "88:10": {
       "questID:3": 90,
       "preRequisites:11": [
         262
@@ -4756,7 +5386,7 @@
         }
       }
     },
-    "78:10": {
+    "89:10": {
       "questID:3": 91,
       "preRequisites:11": [
         85
@@ -4807,7 +5437,7 @@
       },
       "rewards:9": {}
     },
-    "79:10": {
+    "90:10": {
       "questID:3": 92,
       "preRequisites:11": [
         88,
@@ -4872,7 +5502,7 @@
       },
       "rewards:9": {}
     },
-    "80:10": {
+    "91:10": {
       "questID:3": 93,
       "preRequisites:11": [
         92
@@ -4910,7 +5540,7 @@
       },
       "rewards:9": {}
     },
-    "81:10": {
+    "92:10": {
       "questID:3": 94,
       "preRequisites:11": [
         93
@@ -4943,7 +5573,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "82:10": {
+    "93:10": {
       "questID:3": 95,
       "preRequisites:11": [
         86
@@ -5018,7 +5648,7 @@
       },
       "rewards:9": {}
     },
-    "83:10": {
+    "94:10": {
       "questID:3": 96,
       "preRequisites:11": [
         85,
@@ -5046,7 +5676,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Research in Space Mining",
-          "desc:8": "There are abandoned spaceships and pieces of debris everywhere in space. \n\nWe can send autonomous mining rockets to collect resources and parts that might come in useful later. \n\nThese rockets will need to be equipped with special drilling heads to complete their mission. "
+          "desc:8": "There are abandoned spaceships and pieces of debris everywhere in space. \n\nWe can send autonomous mining rockets to collect resources and parts that might come in useful later. \n\nThese rockets will need to be equipped with special drilling heads to complete their mission. \n\nYou can research this in the rocket factory. You need:\n- 2 Stacks of Monopropellant Tanks\n- 1 Stack of Monopropellant Engines\n- 16 Stacks of Redstone\n- 32 Diamonds\n- 4 Stacks of Steel Gears"
         }
       },
       "tasks:9": {
@@ -5056,36 +5686,36 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "advancedrocketry:fueltank",
-              "Count:3": 100,
+              "id:8": "minecraft:redstone",
+              "Count:3": 1024,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "advancedrocketry:rocketmotor",
-              "Count:3": 32,
+              "id:8": "advancedrocketry:fueltank",
+              "Count:3": 128,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "2:10": {
-              "id:8": "minecraft:redstone",
-              "Count:3": 1500,
+              "id:8": "advancedrocketry:rocketmotor",
+              "Count:3": 64,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "3:10": {
-              "id:8": "libvulpes:productgear",
-              "Count:3": 200,
-              "Damage:2": 6,
-              "OreDict:8": ""
-            },
-            "4:10": {
               "id:8": "minecraft:diamond",
               "Count:3": 32,
               "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "libvulpes:productgear",
+              "Count:3": 256,
+              "Damage:2": 6,
               "OreDict:8": ""
             }
           },
@@ -5094,10 +5724,9 @@
       },
       "rewards:9": {}
     },
-    "84:10": {
+    "95:10": {
       "questID:3": 97,
       "preRequisites:11": [
-        169,
         96
       ],
       "properties:10": {
@@ -5122,7 +5751,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Drill",
-          "desc:8": "We finally found a working drill system now. I lost count of how many rockets we lost in the process...."
+          "desc:8": "We finally found a working drill system now. You can build it in the rocket crafter!"
         }
       },
       "tasks:9": {
@@ -5132,16 +5761,10 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "libvulpes:structuremachine",
-              "Count:3": 12,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:diamond_pickaxe",
+              "id:8": "advancedrocketry:drill",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -5150,22 +5773,9 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "advancedrocketry:drill",
-              "Count:3": 12,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
-    "85:10": {
+    "96:10": {
       "questID:3": 98,
       "preRequisites:11": [
         105,
@@ -5204,7 +5814,7 @@
       },
       "rewards:9": {}
     },
-    "86:10": {
+    "97:10": {
       "questID:3": 99,
       "preRequisites:11": [
         85,
@@ -5232,7 +5842,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Research in Space Station Technology",
-          "desc:8": "An important part of rocket science is the construction of a space station.\n\nWe should investigate possible ways to build such a station!"
+          "desc:8": "An important part of rocket science is the construction of a space station.\n\nWe should investigate possible ways to build such a station!\n\nDeliver the following materials to the Rocket Factory to research Space Stations\n"
         }
       },
       "tasks:9": {
@@ -5242,41 +5852,41 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:redstone",
-              "Count:3": 1000,
+              "Count:3": 1024,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
               "id:8": "immersiveengineering:metal",
-              "Count:3": 200,
+              "Count:3": 256,
               "Damage:2": 31,
-              "OreDict:8": ""
+              "OreDict:8": "plateAluminum"
             },
             "2:10": {
               "id:8": "immersiveengineering:material",
-              "Count:3": 300,
+              "Count:3": 512,
               "Damage:2": 3,
               "OreDict:8": ""
             },
             "3:10": {
               "id:8": "immersiveengineering:wirecoil",
-              "Count:3": 100,
+              "Count:3": 128,
               "Damage:2": 4,
               "OreDict:8": ""
             },
             "4:10": {
               "id:8": "immersiveengineering:metal_decoration0",
-              "Count:3": 100,
+              "Count:3": 128,
               "Damage:2": 4,
               "OreDict:8": ""
             },
             "5:10": {
               "id:8": "libvulpes:motor",
-              "Count:3": 10,
+              "Count:3": 16,
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -5288,7 +5898,7 @@
             },
             "7:10": {
               "id:8": "advancedrocketry:solargenerator",
-              "Count:3": 50,
+              "Count:3": 32,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -5298,7 +5908,7 @@
       },
       "rewards:9": {}
     },
-    "87:10": {
+    "98:10": {
       "questID:3": 100,
       "preRequisites:11": [
         45,
@@ -5380,7 +5990,7 @@
       },
       "rewards:9": {}
     },
-    "88:10": {
+    "99:10": {
       "questID:3": 101,
       "preRequisites:11": [
         45
@@ -5461,7 +6071,7 @@
       },
       "rewards:9": {}
     },
-    "89:10": {
+    "100:10": {
       "questID:3": 102,
       "preRequisites:11": [
         286
@@ -5512,7 +6122,7 @@
       },
       "rewards:9": {}
     },
-    "90:10": {
+    "101:10": {
       "questID:3": 103,
       "preRequisites:11": [
         45
@@ -5569,7 +6179,7 @@
       },
       "rewards:9": {}
     },
-    "91:10": {
+    "102:10": {
       "questID:3": 104,
       "preRequisites:11": [
         286
@@ -5620,7 +6230,7 @@
       },
       "rewards:9": {}
     },
-    "92:10": {
+    "103:10": {
       "questID:3": 105,
       "preRequisites:11": [
         69,
@@ -5657,7 +6267,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "93:10": {
+    "104:10": {
       "questID:3": 106,
       "preRequisites:11": [
         234
@@ -5738,7 +6348,7 @@
       },
       "rewards:9": {}
     },
-    "94:10": {
+    "105:10": {
       "questID:3": 107,
       "preRequisites:11": [
         106
@@ -5777,7 +6387,7 @@
       },
       "rewards:9": {}
     },
-    "95:10": {
+    "106:10": {
       "questID:3": 108,
       "preRequisites:11": [
         111
@@ -5810,7 +6420,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "96:10": {
+    "107:10": {
       "questID:3": 109,
       "preRequisites:11": [
         259
@@ -5837,7 +6447,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The Unmanned Vehicle Assembler",
-          "desc:8": "Unlike the Rocket Assembling Machine, the Unmanned Vehicle Assembler builds the craft horizontally instead of vertically.\n\nOnce the Unmanned Vehicle Assembler is placed, Structure Tower blocks can be placed on the top and sides of the machine to determine the area in which to build the vehicle.\n\n\nA bar must extend from the top of the vertical tower to determine the length of the area to build."
+          "desc:8": "Unlike the Rocket Assembling Machine, the Unmanned Vehicle Assembler builds the craft horizontally instead of vertically.\n\nOnce the Unmanned Vehicle Assembler is placed, Structure Tower blocks can be placed on the top and sides of the machine to determine the area in which to build the vehicle.\n\n\nA bar must extend from the top of the vertical tower to determine the length of the area to scan.\n\nYou can come back here later if you need multiple Assembling Machines. (re-join server on multiplayer)"
         }
       },
       "tasks:9": {
@@ -5898,7 +6508,7 @@
         }
       }
     },
-    "97:10": {
+    "108:10": {
       "questID:3": 110,
       "preRequisites:11": [
         337
@@ -5974,7 +6584,7 @@
         }
       }
     },
-    "98:10": {
+    "109:10": {
       "questID:3": 111,
       "preRequisites:11": [
         114,
@@ -6075,7 +6685,7 @@
         }
       }
     },
-    "99:10": {
+    "110:10": {
       "questID:3": 112,
       "preRequisites:11": [
         115
@@ -6108,7 +6718,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "100:10": {
+    "111:10": {
       "questID:3": 113,
       "preRequisites:11": [
         107
@@ -6141,7 +6751,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "101:10": {
+    "112:10": {
       "questID:3": 114,
       "preRequisites:11": [
         110
@@ -6174,7 +6784,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "102:10": {
+    "113:10": {
       "questID:3": 115,
       "preRequisites:11": [
         263,
@@ -6208,7 +6818,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "103:10": {
+    "114:10": {
       "questID:3": 116,
       "preRequisites:11": [
         117
@@ -6248,7 +6858,7 @@
         }
       }
     },
-    "104:10": {
+    "115:10": {
       "questID:3": 117,
       "preRequisites:11": [
         112
@@ -6281,7 +6891,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "105:10": {
+    "116:10": {
       "questID:3": 118,
       "preRequisites:11": [
         116
@@ -6337,7 +6947,7 @@
         }
       }
     },
-    "106:10": {
+    "117:10": {
       "questID:3": 119,
       "preRequisites:11": [
         118
@@ -6393,7 +7003,7 @@
         }
       }
     },
-    "107:10": {
+    "118:10": {
       "questID:3": 120,
       "preRequisites:11": [
         119
@@ -6449,7 +7059,7 @@
         }
       }
     },
-    "108:10": {
+    "119:10": {
       "questID:3": 121,
       "preRequisites:11": [
         120
@@ -6505,7 +7115,7 @@
         }
       }
     },
-    "109:10": {
+    "120:10": {
       "questID:3": 122,
       "preRequisites:11": [
         121
@@ -6561,7 +7171,7 @@
         }
       }
     },
-    "110:10": {
+    "121:10": {
       "questID:3": 123,
       "preRequisites:11": [
         122
@@ -6617,7 +7227,7 @@
         }
       }
     },
-    "111:10": {
+    "122:10": {
       "questID:3": 124,
       "preRequisites:11": [
         123
@@ -6673,7 +7283,7 @@
         }
       }
     },
-    "112:10": {
+    "123:10": {
       "questID:3": 125,
       "preRequisites:11": [
         124
@@ -6729,7 +7339,7 @@
         }
       }
     },
-    "113:10": {
+    "124:10": {
       "questID:3": 126,
       "preRequisites:11": [
         125
@@ -6785,7 +7395,7 @@
         }
       }
     },
-    "114:10": {
+    "125:10": {
       "questID:3": 127,
       "preRequisites:11": [
         126
@@ -6844,1961 +7454,7 @@
         }
       }
     },
-    "115:10": {
-      "questID:3": 128,
-      "preRequisites:11": [
-        140
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "116:10": {
-      "questID:3": 129,
-      "preRequisites:11": [
-        128
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "117:10": {
-      "questID:3": 130,
-      "preRequisites:11": [
-        129
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "118:10": {
-      "questID:3": 131,
-      "preRequisites:11": [
-        130
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "119:10": {
-      "questID:3": 132,
-      "preRequisites:11": [
-        131
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "120:10": {
-      "questID:3": 133,
-      "preRequisites:11": [
-        132
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "121:10": {
-      "questID:3": 134,
-      "preRequisites:11": [
-        133
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "122:10": {
-      "questID:3": 135,
-      "preRequisites:11": [
-        134
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "123:10": {
-      "questID:3": 136,
-      "preRequisites:11": [
-        25
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "HIDDEN",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "msg research in progress",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {
-        "0:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
-          "description:8": "Run a command script",
-          "viaPlayer:1": 0,
-          "index:3": 1,
-          "title:8": "bq_standard.reward.command",
-          "command:8": "say The Research Project is now in progress. I will notify you as soon as we are done."
-        }
-      }
-    },
-    "124:10": {
-      "questID:3": 137,
-      "preRequisites:11": [
-        135
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "125:10": {
-      "questID:3": 138,
-      "preRequisites:11": [
-        137
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
     "126:10": {
-      "questID:3": 139,
-      "preRequisites:11": [
-        140
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "UNLOCKED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": ""
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "127:10": {
-      "questID:3": 140,
-      "preRequisites:11": [
-        136
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "UNLOCKED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": ""
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "128:10": {
-      "questID:3": 141,
-      "preRequisites:11": [
-        138
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "HIDDEN",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Research completed!",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {
-        "0:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
-          "description:8": "Run a command script",
-          "viaPlayer:1": 0,
-          "index:3": 0,
-          "title:8": "bq_standard.reward.command",
-          "command:8": "say The Research Project has been completed. Take a look at the results!"
-        }
-      }
-    },
-    "129:10": {
-      "questID:3": 142,
-      "preRequisites:11": [
-        154
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "130:10": {
-      "questID:3": 143,
-      "preRequisites:11": [
-        142
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "131:10": {
-      "questID:3": 144,
-      "preRequisites:11": [
-        143
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "132:10": {
-      "questID:3": 145,
-      "preRequisites:11": [
-        144
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "133:10": {
-      "questID:3": 146,
-      "preRequisites:11": [
-        145
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "134:10": {
-      "questID:3": 147,
-      "preRequisites:11": [
-        146
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "135:10": {
-      "questID:3": 148,
-      "preRequisites:11": [
-        147
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "136:10": {
-      "questID:3": 149,
-      "preRequisites:11": [
-        148
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "137:10": {
-      "questID:3": 150,
-      "preRequisites:11": [
-        154
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "HIDDEN",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "msg research optical in progress",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {
-        "0:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
-          "description:8": "Run a command script",
-          "viaPlayer:1": 0,
-          "index:3": 1,
-          "title:8": "bq_standard.reward.command",
-          "command:8": "say Research for Optical Systems is now in progress. I will notify you as soon as we are done."
-        }
-      }
-    },
-    "138:10": {
-      "questID:3": 151,
-      "preRequisites:11": [
-        149
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "139:10": {
-      "questID:3": 152,
-      "preRequisites:11": [
-        151
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "140:10": {
-      "questID:3": 153,
-      "preRequisites:11": [
-        154
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "UNLOCKED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": ""
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "141:10": {
-      "questID:3": 154,
-      "preRequisites:11": [
-        79
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "UNLOCKED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": ""
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "142:10": {
-      "questID:3": 155,
-      "preRequisites:11": [
-        152
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "HIDDEN",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Research completed!",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {
-        "0:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
-          "description:8": "Run a command script",
-          "viaPlayer:1": 0,
-          "index:3": 0,
-          "title:8": "bq_standard.reward.command",
-          "command:8": "say Research has been completed. Take a look at the results!"
-        },
-        "1:10": {
-          "amount:3": 10,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 1
-        }
-      }
-    },
-    "143:10": {
-      "questID:3": 156,
-      "preRequisites:11": [
-        168
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "144:10": {
-      "questID:3": 157,
-      "preRequisites:11": [
-        156
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "145:10": {
-      "questID:3": 158,
-      "preRequisites:11": [
-        157
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "146:10": {
-      "questID:3": 159,
-      "preRequisites:11": [
-        158
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "147:10": {
-      "questID:3": 160,
-      "preRequisites:11": [
-        159
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "148:10": {
-      "questID:3": 161,
-      "preRequisites:11": [
-        160
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "149:10": {
-      "questID:3": 162,
-      "preRequisites:11": [
-        161
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "150:10": {
-      "questID:3": 163,
-      "preRequisites:11": [
-        162
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "151:10": {
-      "questID:3": 164,
-      "preRequisites:11": [
-        168
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "HIDDEN",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "msg research mining in progress",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {
-        "0:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
-          "description:8": "Run a command script",
-          "viaPlayer:1": 0,
-          "index:3": 1,
-          "title:8": "bq_standard.reward.command",
-          "command:8": "say Research for Space Mining is now in progress. I will notify you as soon as we are done."
-        }
-      }
-    },
-    "152:10": {
-      "questID:3": 165,
-      "preRequisites:11": [
-        163
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "153:10": {
-      "questID:3": 166,
-      "preRequisites:11": [
-        165
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "154:10": {
-      "questID:3": 167,
-      "preRequisites:11": [
-        168
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "UNLOCKED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": ""
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "155:10": {
-      "questID:3": 168,
-      "preRequisites:11": [
-        96
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "UNLOCKED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": ""
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "156:10": {
-      "questID:3": 169,
-      "preRequisites:11": [
-        166
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "HIDDEN",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Research completed!",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {
-        "0:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
-          "description:8": "Run a command script",
-          "viaPlayer:1": 0,
-          "index:3": 0,
-          "title:8": "bq_standard.reward.command",
-          "command:8": "say Research has been completed. Take a look at the results!"
-        },
-        "1:10": {
-          "amount:3": 10,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 1
-        }
-      }
-    },
-    "157:10": {
-      "questID:3": 170,
-      "preRequisites:11": [
-        182
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "158:10": {
-      "questID:3": 171,
-      "preRequisites:11": [
-        170
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "159:10": {
-      "questID:3": 172,
-      "preRequisites:11": [
-        171
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "160:10": {
-      "questID:3": 173,
-      "preRequisites:11": [
-        172
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "161:10": {
-      "questID:3": 174,
-      "preRequisites:11": [
-        173
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "162:10": {
-      "questID:3": 175,
-      "preRequisites:11": [
-        174
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "163:10": {
-      "questID:3": 176,
-      "preRequisites:11": [
-        175
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "164:10": {
-      "questID:3": 177,
-      "preRequisites:11": [
-        176
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "165:10": {
-      "questID:3": 178,
-      "preRequisites:11": [
-        182
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "HIDDEN",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "msg research stations in progress",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {
-        "0:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
-          "description:8": "Run a command script",
-          "viaPlayer:1": 0,
-          "index:3": 1,
-          "title:8": "bq_standard.reward.command",
-          "command:8": "say Research for Space Stations is now in progress. I will notify you as soon as we are done."
-        }
-      }
-    },
-    "166:10": {
-      "questID:3": 179,
-      "preRequisites:11": [
-        177
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "167:10": {
-      "questID:3": 180,
-      "preRequisites:11": [
-        179
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": "waiting for research to complete..."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "168:10": {
-      "questID:3": 181,
-      "preRequisites:11": [
-        182
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "UNLOCKED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": ""
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "169:10": {
-      "questID:3": 182,
-      "preRequisites:11": [
-        99
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "UNLOCKED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "",
-          "desc:8": ""
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "170:10": {
-      "questID:3": 183,
-      "preRequisites:11": [
-        180
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 1,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "HIDDEN",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Research completed!",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {
-        "0:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
-          "description:8": "Run a command script",
-          "viaPlayer:1": 0,
-          "index:3": 0,
-          "title:8": "bq_standard.reward.command",
-          "command:8": "say Research has been completed. Take a look at the results!"
-        },
-        "1:10": {
-          "amount:3": 10,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 1
-        }
-      }
-    },
-    "171:10": {
       "questID:3": 184,
       "preRequisites:11": [
         206
@@ -8831,7 +7487,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "172:10": {
+    "127:10": {
       "questID:3": 185,
       "preRequisites:11": [
         184
@@ -8864,7 +7520,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "173:10": {
+    "128:10": {
       "questID:3": 186,
       "preRequisites:11": [
         185
@@ -8897,7 +7553,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "174:10": {
+    "129:10": {
       "questID:3": 187,
       "preRequisites:11": [
         186
@@ -8930,7 +7586,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "175:10": {
+    "130:10": {
       "questID:3": 188,
       "preRequisites:11": [
         187
@@ -8963,7 +7619,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "176:10": {
+    "131:10": {
       "questID:3": 189,
       "preRequisites:11": [
         188
@@ -8996,7 +7652,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "177:10": {
+    "132:10": {
       "questID:3": 190,
       "preRequisites:11": [
         189
@@ -9029,7 +7685,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "178:10": {
+    "133:10": {
       "questID:3": 191,
       "preRequisites:11": [
         190
@@ -9062,7 +7718,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "179:10": {
+    "134:10": {
       "questID:3": 192,
       "preRequisites:11": [
         191
@@ -9095,7 +7751,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "180:10": {
+    "135:10": {
       "questID:3": 193,
       "preRequisites:11": [
         192
@@ -9128,7 +7784,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "181:10": {
+    "136:10": {
       "questID:3": 194,
       "preRequisites:11": [
         193
@@ -9161,7 +7817,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "182:10": {
+    "137:10": {
       "questID:3": 195,
       "preRequisites:11": [
         194
@@ -9194,7 +7850,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "183:10": {
+    "138:10": {
       "questID:3": 196,
       "preRequisites:11": [
         195
@@ -9227,7 +7883,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "184:10": {
+    "139:10": {
       "questID:3": 197,
       "preRequisites:11": [
         196
@@ -9260,7 +7916,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "185:10": {
+    "140:10": {
       "questID:3": 198,
       "preRequisites:11": [
         197
@@ -9293,7 +7949,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "186:10": {
+    "141:10": {
       "questID:3": 199,
       "preRequisites:11": [
         198
@@ -9326,7 +7982,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "187:10": {
+    "142:10": {
       "questID:3": 200,
       "preRequisites:11": [
         199
@@ -9359,7 +8015,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "188:10": {
+    "143:10": {
       "questID:3": 201,
       "preRequisites:11": [
         200
@@ -9392,7 +8048,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "189:10": {
+    "144:10": {
       "questID:3": 202,
       "preRequisites:11": [
         201
@@ -9425,7 +8081,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "190:10": {
+    "145:10": {
       "questID:3": 203,
       "preRequisites:11": [
         202
@@ -9458,7 +8114,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "191:10": {
+    "146:10": {
       "questID:3": 204,
       "preRequisites:11": [
         206
@@ -9491,7 +8147,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "192:10": {
+    "147:10": {
       "questID:3": 205,
       "preRequisites:11": [
         206
@@ -9524,7 +8180,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "193:10": {
+    "148:10": {
       "questID:3": 206,
       "preRequisites:11": [
         101
@@ -9568,7 +8224,7 @@
         }
       }
     },
-    "194:10": {
+    "149:10": {
       "questID:3": 207,
       "preRequisites:11": [
         203
@@ -9601,7 +8257,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "195:10": {
+    "150:10": {
       "questID:3": 208,
       "preRequisites:11": [
         209
@@ -9634,7 +8290,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "196:10": {
+    "151:10": {
       "questID:3": 209,
       "preRequisites:11": [
         207
@@ -9684,7 +8340,7 @@
         }
       }
     },
-    "197:10": {
+    "152:10": {
       "questID:3": 210,
       "preRequisites:11": [
         232
@@ -9717,7 +8373,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "198:10": {
+    "153:10": {
       "questID:3": 211,
       "preRequisites:11": [
         210
@@ -9750,7 +8406,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "199:10": {
+    "154:10": {
       "questID:3": 212,
       "preRequisites:11": [
         211
@@ -9783,7 +8439,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "200:10": {
+    "155:10": {
       "questID:3": 213,
       "preRequisites:11": [
         212
@@ -9816,7 +8472,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "201:10": {
+    "156:10": {
       "questID:3": 214,
       "preRequisites:11": [
         213
@@ -9849,7 +8505,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "202:10": {
+    "157:10": {
       "questID:3": 215,
       "preRequisites:11": [
         214
@@ -9882,7 +8538,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "203:10": {
+    "158:10": {
       "questID:3": 216,
       "preRequisites:11": [
         215
@@ -9915,7 +8571,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "204:10": {
+    "159:10": {
       "questID:3": 217,
       "preRequisites:11": [
         216
@@ -9948,7 +8604,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "205:10": {
+    "160:10": {
       "questID:3": 218,
       "preRequisites:11": [
         217
@@ -9981,7 +8637,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "206:10": {
+    "161:10": {
       "questID:3": 219,
       "preRequisites:11": [
         218
@@ -10014,7 +8670,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "207:10": {
+    "162:10": {
       "questID:3": 220,
       "preRequisites:11": [
         219
@@ -10047,7 +8703,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "208:10": {
+    "163:10": {
       "questID:3": 221,
       "preRequisites:11": [
         220
@@ -10080,7 +8736,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "209:10": {
+    "164:10": {
       "questID:3": 222,
       "preRequisites:11": [
         221
@@ -10113,7 +8769,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "210:10": {
+    "165:10": {
       "questID:3": 223,
       "preRequisites:11": [
         222
@@ -10146,7 +8802,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "211:10": {
+    "166:10": {
       "questID:3": 224,
       "preRequisites:11": [
         223
@@ -10179,7 +8835,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "212:10": {
+    "167:10": {
       "questID:3": 225,
       "preRequisites:11": [
         224
@@ -10212,7 +8868,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "213:10": {
+    "168:10": {
       "questID:3": 226,
       "preRequisites:11": [
         225
@@ -10245,7 +8901,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "214:10": {
+    "169:10": {
       "questID:3": 227,
       "preRequisites:11": [
         226
@@ -10278,7 +8934,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "215:10": {
+    "170:10": {
       "questID:3": 228,
       "preRequisites:11": [
         227
@@ -10311,7 +8967,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "216:10": {
+    "171:10": {
       "questID:3": 229,
       "preRequisites:11": [
         228
@@ -10344,7 +9000,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "217:10": {
+    "172:10": {
       "questID:3": 230,
       "preRequisites:11": [
         232
@@ -10377,7 +9033,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "218:10": {
+    "173:10": {
       "questID:3": 231,
       "preRequisites:11": [
         232
@@ -10410,7 +9066,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "219:10": {
+    "174:10": {
       "questID:3": 232,
       "preRequisites:11": [
         103
@@ -10454,7 +9110,7 @@
         }
       }
     },
-    "220:10": {
+    "175:10": {
       "questID:3": 233,
       "preRequisites:11": [
         229
@@ -10487,7 +9143,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "221:10": {
+    "176:10": {
       "questID:3": 234,
       "preRequisites:11": [
         233
@@ -10537,7 +9193,7 @@
         }
       }
     },
-    "222:10": {
+    "177:10": {
       "questID:3": 235,
       "preRequisites:11": [
         257
@@ -10570,7 +9226,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "223:10": {
+    "178:10": {
       "questID:3": 236,
       "preRequisites:11": [
         235
@@ -10603,7 +9259,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "224:10": {
+    "179:10": {
       "questID:3": 237,
       "preRequisites:11": [
         236
@@ -10636,7 +9292,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "225:10": {
+    "180:10": {
       "questID:3": 238,
       "preRequisites:11": [
         237
@@ -10669,7 +9325,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "226:10": {
+    "181:10": {
       "questID:3": 239,
       "preRequisites:11": [
         238
@@ -10702,7 +9358,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "227:10": {
+    "182:10": {
       "questID:3": 240,
       "preRequisites:11": [
         239
@@ -10735,7 +9391,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "228:10": {
+    "183:10": {
       "questID:3": 241,
       "preRequisites:11": [
         240
@@ -10768,7 +9424,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "229:10": {
+    "184:10": {
       "questID:3": 242,
       "preRequisites:11": [
         241
@@ -10801,7 +9457,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "230:10": {
+    "185:10": {
       "questID:3": 243,
       "preRequisites:11": [
         242
@@ -10834,7 +9490,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "231:10": {
+    "186:10": {
       "questID:3": 244,
       "preRequisites:11": [
         243
@@ -10867,7 +9523,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "232:10": {
+    "187:10": {
       "questID:3": 245,
       "preRequisites:11": [
         244
@@ -10900,7 +9556,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "233:10": {
+    "188:10": {
       "questID:3": 246,
       "preRequisites:11": [
         245
@@ -10933,7 +9589,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "234:10": {
+    "189:10": {
       "questID:3": 247,
       "preRequisites:11": [
         246
@@ -10966,7 +9622,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "235:10": {
+    "190:10": {
       "questID:3": 248,
       "preRequisites:11": [
         247
@@ -10999,7 +9655,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "236:10": {
+    "191:10": {
       "questID:3": 249,
       "preRequisites:11": [
         248
@@ -11032,7 +9688,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "237:10": {
+    "192:10": {
       "questID:3": 250,
       "preRequisites:11": [
         249
@@ -11065,7 +9721,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "238:10": {
+    "193:10": {
       "questID:3": 251,
       "preRequisites:11": [
         250
@@ -11098,7 +9754,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "239:10": {
+    "194:10": {
       "questID:3": 252,
       "preRequisites:11": [
         251
@@ -11131,7 +9787,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "240:10": {
+    "195:10": {
       "questID:3": 253,
       "preRequisites:11": [
         252
@@ -11164,7 +9820,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "241:10": {
+    "196:10": {
       "questID:3": 254,
       "preRequisites:11": [
         253
@@ -11197,7 +9853,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "242:10": {
+    "197:10": {
       "questID:3": 255,
       "preRequisites:11": [
         257
@@ -11230,7 +9886,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "243:10": {
+    "198:10": {
       "questID:3": 256,
       "preRequisites:11": [
         257
@@ -11263,7 +9919,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "244:10": {
+    "199:10": {
       "questID:3": 257,
       "preRequisites:11": [
         100
@@ -11307,7 +9963,7 @@
         }
       }
     },
-    "245:10": {
+    "200:10": {
       "questID:3": 258,
       "preRequisites:11": [
         254
@@ -11340,7 +9996,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "246:10": {
+    "201:10": {
       "questID:3": 259,
       "preRequisites:11": [
         258
@@ -11390,7 +10046,7 @@
         }
       }
     },
-    "247:10": {
+    "202:10": {
       "questID:3": 260,
       "preRequisites:11": [
         98,
@@ -11472,7 +10128,7 @@
       },
       "rewards:9": {}
     },
-    "248:10": {
+    "203:10": {
       "questID:3": 261,
       "preRequisites:11": [
         234
@@ -11499,7 +10155,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Warp Core",
-          "desc:8": "The Warp Core is the most important part of a Warp Drive.\n\nWe can now order them from the Scientists."
+          "desc:8": "The Warp Core is the most important part of a Warp Drive.\n\nWe can now order them from the Scientists.\n\nIf you need multiple Warp Cores, come back later and new orders will be available! (re-join server on multiplayer)"
         }
       },
       "tasks:9": {
@@ -11560,7 +10216,7 @@
         }
       }
     },
-    "249:10": {
+    "204:10": {
       "questID:3": 262,
       "preRequisites:11": [
         79,
@@ -11589,13 +10245,13 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Research into basic rocket science completed",
-          "desc:8": "Now that we have a basic understanding of Rocket Science we should focus on out main goal: terraforming Moon.\n\nWe will need a larger team of scientists for this.\n\nGet some readstone ready!"
+          "desc:8": "Now that we have a basic understanding of Rocket Science we should focus on out main goal: terraforming Moon.\n\nWe will need additional funding to complete advanced rocket science research.\n\nGet some readstone ready!"
         }
       },
       "tasks:9": {},
       "rewards:9": {}
     },
-    "250:10": {
+    "205:10": {
       "questID:3": 263,
       "preRequisites:11": [
         111
@@ -11688,7 +10344,7 @@
       },
       "rewards:9": {}
     },
-    "251:10": {
+    "206:10": {
       "questID:3": 264,
       "preRequisites:11": [
         26
@@ -11739,7 +10395,7 @@
       },
       "rewards:9": {}
     },
-    "252:10": {
+    "207:10": {
       "questID:3": 265,
       "preRequisites:11": [
         26
@@ -11790,7 +10446,7 @@
       },
       "rewards:9": {}
     },
-    "253:10": {
+    "208:10": {
       "questID:3": 266,
       "preRequisites:11": [
         267
@@ -11841,7 +10497,7 @@
       },
       "rewards:9": {}
     },
-    "254:10": {
+    "209:10": {
       "questID:3": 267,
       "preRequisites:11": [
         95,
@@ -11880,7 +10536,7 @@
       },
       "rewards:9": {}
     },
-    "255:10": {
+    "210:10": {
       "questID:3": 268,
       "preRequisites:11": [
         17
@@ -11943,7 +10599,7 @@
       },
       "rewards:9": {}
     },
-    "256:10": {
+    "211:10": {
       "questID:3": 269,
       "preRequisites:11": [
         47
@@ -11984,7 +10640,7 @@
       },
       "rewards:9": {}
     },
-    "257:10": {
+    "212:10": {
       "questID:3": 270,
       "preRequisites:11": [
         268
@@ -12022,7 +10678,7 @@
       },
       "rewards:9": {}
     },
-    "258:10": {
+    "213:10": {
       "questID:3": 271,
       "preRequisites:11": [
         47
@@ -12060,7 +10716,7 @@
       },
       "rewards:9": {}
     },
-    "259:10": {
+    "214:10": {
       "questID:3": 272,
       "preRequisites:11": [
         87
@@ -12098,7 +10754,7 @@
       },
       "rewards:9": {}
     },
-    "260:10": {
+    "215:10": {
       "questID:3": 273,
       "preRequisites:11": [
         110
@@ -12140,7 +10796,7 @@
       },
       "rewards:9": {}
     },
-    "261:10": {
+    "216:10": {
       "questID:3": 274,
       "preRequisites:11": [
         18
@@ -12178,7 +10834,7 @@
       },
       "rewards:9": {}
     },
-    "262:10": {
+    "217:10": {
       "questID:3": 275,
       "preRequisites:11": [
         317
@@ -12216,7 +10872,7 @@
       },
       "rewards:9": {}
     },
-    "263:10": {
+    "218:10": {
       "questID:3": 276,
       "preRequisites:11": [
         110
@@ -12254,7 +10910,7 @@
       },
       "rewards:9": {}
     },
-    "264:10": {
+    "219:10": {
       "questID:3": 277,
       "preRequisites:11": [
         48
@@ -12305,7 +10961,7 @@
       },
       "rewards:9": {}
     },
-    "265:10": {
+    "220:10": {
       "questID:3": 278,
       "preRequisites:11": [
         347
@@ -12362,7 +11018,7 @@
       },
       "rewards:9": {}
     },
-    "266:10": {
+    "221:10": {
       "questID:3": 279,
       "preRequisites:11": [
         268
@@ -12413,7 +11069,7 @@
       },
       "rewards:9": {}
     },
-    "267:10": {
+    "222:10": {
       "questID:3": 280,
       "preRequisites:11": [
         311
@@ -12451,7 +11107,7 @@
       },
       "rewards:9": {}
     },
-    "268:10": {
+    "223:10": {
       "questID:3": 281,
       "preRequisites:11": [
         347
@@ -12508,7 +11164,7 @@
       },
       "rewards:9": {}
     },
-    "269:10": {
+    "224:10": {
       "questID:3": 282,
       "preRequisites:11": [
         266
@@ -12583,7 +11239,7 @@
       },
       "rewards:9": {}
     },
-    "270:10": {
+    "225:10": {
       "questID:3": 283,
       "preRequisites:11": [
         282
@@ -12658,7 +11314,7 @@
       },
       "rewards:9": {}
     },
-    "271:10": {
+    "226:10": {
       "questID:3": 284,
       "preRequisites:11": [
         285
@@ -12696,7 +11352,7 @@
       },
       "rewards:9": {}
     },
-    "272:10": {
+    "227:10": {
       "questID:3": 285,
       "preRequisites:11": [
         304
@@ -12740,7 +11396,7 @@
         }
       }
     },
-    "273:10": {
+    "228:10": {
       "questID:3": 286,
       "preRequisites:11": [
         285
@@ -12773,7 +11429,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "274:10": {
+    "229:10": {
       "questID:3": 287,
       "preRequisites:11": [
         310
@@ -12811,7 +11467,7 @@
       },
       "rewards:9": {}
     },
-    "275:10": {
+    "230:10": {
       "questID:3": 288,
       "preRequisites:11": [
         271
@@ -12889,7 +11545,7 @@
       },
       "rewards:9": {}
     },
-    "276:10": {
+    "231:10": {
       "questID:3": 289,
       "preRequisites:11": [
         288
@@ -12964,7 +11620,7 @@
       },
       "rewards:9": {}
     },
-    "277:10": {
+    "232:10": {
       "questID:3": 290,
       "preRequisites:11": [
         274
@@ -13027,7 +11683,7 @@
       },
       "rewards:9": {}
     },
-    "278:10": {
+    "233:10": {
       "questID:3": 291,
       "preRequisites:11": [
         290
@@ -13095,7 +11751,7 @@
       },
       "rewards:9": {}
     },
-    "279:10": {
+    "234:10": {
       "questID:3": 292,
       "preRequisites:11": [
         290
@@ -13156,7 +11812,7 @@
       },
       "rewards:9": {}
     },
-    "280:10": {
+    "235:10": {
       "questID:3": 293,
       "preRequisites:11": [
         290
@@ -13238,7 +11894,7 @@
       },
       "rewards:9": {}
     },
-    "281:10": {
+    "236:10": {
       "questID:3": 294,
       "preRequisites:11": [
         290
@@ -13299,7 +11955,7 @@
       },
       "rewards:9": {}
     },
-    "282:10": {
+    "237:10": {
       "questID:3": 295,
       "preRequisites:11": [
         292,
@@ -13338,7 +11994,7 @@
       },
       "rewards:9": {}
     },
-    "283:10": {
+    "238:10": {
       "questID:3": 296,
       "preRequisites:11": [
         269
@@ -13419,7 +12075,7 @@
       },
       "rewards:9": {}
     },
-    "284:10": {
+    "239:10": {
       "questID:3": 297,
       "preRequisites:11": [
         296
@@ -13509,7 +12165,7 @@
       },
       "rewards:9": {}
     },
-    "285:10": {
+    "240:10": {
       "questID:3": 298,
       "preRequisites:11": [
         270
@@ -13560,7 +12216,7 @@
       },
       "rewards:9": {}
     },
-    "286:10": {
+    "241:10": {
       "questID:3": 299,
       "preRequisites:11": [
         272
@@ -13617,7 +12273,7 @@
       },
       "rewards:9": {}
     },
-    "287:10": {
+    "242:10": {
       "questID:3": 300,
       "preRequisites:11": [
         273
@@ -13668,7 +12324,7 @@
       },
       "rewards:9": {}
     },
-    "288:10": {
+    "243:10": {
       "questID:3": 301,
       "preRequisites:11": [
         275
@@ -13719,7 +12375,7 @@
       },
       "rewards:9": {}
     },
-    "289:10": {
+    "244:10": {
       "questID:3": 302,
       "preRequisites:11": [
         301
@@ -13770,7 +12426,7 @@
       },
       "rewards:9": {}
     },
-    "290:10": {
+    "245:10": {
       "questID:3": 303,
       "preRequisites:11": [
         276
@@ -13821,7 +12477,7 @@
       },
       "rewards:9": {}
     },
-    "291:10": {
+    "246:10": {
       "questID:3": 304,
       "preRequisites:11": [
         305
@@ -13854,7 +12510,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "292:10": {
+    "247:10": {
       "questID:3": 305,
       "preRequisites:11": [
         306
@@ -13887,7 +12543,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "293:10": {
+    "248:10": {
       "questID:3": 306,
       "preRequisites:11": [
         307
@@ -13920,7 +12576,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "294:10": {
+    "249:10": {
       "questID:3": 307,
       "preRequisites:11": [
         308
@@ -13953,7 +12609,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "295:10": {
+    "250:10": {
       "questID:3": 308,
       "preRequisites:11": [
         309
@@ -13986,7 +12642,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "296:10": {
+    "251:10": {
       "questID:3": 309,
       "preRequisites:11": [
         106
@@ -14019,7 +12675,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "297:10": {
+    "252:10": {
       "questID:3": 310,
       "preRequisites:11": [
         97
@@ -14100,7 +12756,7 @@
       },
       "rewards:9": {}
     },
-    "298:10": {
+    "253:10": {
       "questID:3": 311,
       "preRequisites:11": [
         81
@@ -14193,7 +12849,7 @@
       },
       "rewards:9": {}
     },
-    "299:10": {
+    "254:10": {
       "questID:3": 312,
       "preRequisites:11": [
         85
@@ -14244,7 +12900,7 @@
       },
       "rewards:9": {}
     },
-    "300:10": {
+    "255:10": {
       "questID:3": 313,
       "preRequisites:11": [
         312
@@ -14319,7 +12975,7 @@
       },
       "rewards:9": {}
     },
-    "301:10": {
+    "256:10": {
       "questID:3": 314,
       "preRequisites:11": [
         313
@@ -14370,11 +13026,10 @@
       },
       "rewards:9": {}
     },
-    "302:10": {
+    "257:10": {
       "questID:3": 315,
       "preRequisites:11": [
-        99,
-        183
+        99
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14398,7 +13053,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The Space Station Assembler",
-          "desc:8": "The Space Station Assembler can be ordered from the scientists in the same way as the Rocket Assembling Machine. \n\nHowever, rather than build rockets, it builds space station modules from the blocks placed on the pad."
+          "desc:8": "Now you can use the Research Documents to upgrade a Rocket Assembler to a Space Station Assembler."
         }
       },
       "tasks:9": {
@@ -14408,35 +13063,11 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "advancedrocketry:misc",
+              "id:8": "advancedrocketry:stationbuilder",
               "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "advancedrocketry:rocketbuilder",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "advancedrocketry:ic",
-              "Count:3": 2,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "libvulpes:productgear",
-              "Count:3": 1,
-              "Damage:2": 7,
-              "OreDict:8": ""
-            },
-            "4:10": {
-              "id:8": "libvulpes:productdust",
-              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -14444,22 +13075,9 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "advancedrocketry:stationbuilder",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
-    "303:10": {
+    "258:10": {
       "questID:3": 316,
       "preRequisites:11": [
         315
@@ -14516,7 +13134,7 @@
       },
       "rewards:9": {}
     },
-    "304:10": {
+    "259:10": {
       "questID:3": 317,
       "preRequisites:11": [
         316
@@ -14554,7 +13172,7 @@
       },
       "rewards:9": {}
     },
-    "305:10": {
+    "260:10": {
       "questID:3": 318,
       "preRequisites:11": [
         276
@@ -14635,7 +13253,7 @@
       },
       "rewards:9": {}
     },
-    "306:10": {
+    "261:10": {
       "questID:3": 319,
       "preRequisites:11": [
         74
@@ -14686,7 +13304,7 @@
       },
       "rewards:9": {}
     },
-    "307:10": {
+    "262:10": {
       "questID:3": 320,
       "preRequisites:11": [
         110
@@ -14730,7 +13348,7 @@
         }
       }
     },
-    "308:10": {
+    "263:10": {
       "questID:3": 321,
       "preRequisites:11": [
         48
@@ -14774,7 +13392,7 @@
         }
       }
     },
-    "309:10": {
+    "264:10": {
       "questID:3": 322,
       "preRequisites:11": [
         330
@@ -14818,7 +13436,7 @@
         }
       }
     },
-    "310:10": {
+    "265:10": {
       "questID:3": 323,
       "preRequisites:11": [
         268
@@ -14862,7 +13480,7 @@
         }
       }
     },
-    "311:10": {
+    "266:10": {
       "questID:3": 324,
       "preRequisites:11": [
         317
@@ -14906,7 +13524,7 @@
         }
       }
     },
-    "312:10": {
+    "267:10": {
       "questID:3": 325,
       "preRequisites:11": [
         47
@@ -14950,7 +13568,7 @@
         }
       }
     },
-    "313:10": {
+    "268:10": {
       "questID:3": 326,
       "preRequisites:11": [
         87
@@ -14994,7 +13612,7 @@
         }
       }
     },
-    "314:10": {
+    "269:10": {
       "questID:3": 327,
       "preRequisites:11": [
         286
@@ -15045,7 +13663,7 @@
       },
       "rewards:9": {}
     },
-    "315:10": {
+    "270:10": {
       "questID:3": 328,
       "preRequisites:11": [],
       "properties:10": {
@@ -15087,7 +13705,7 @@
         }
       }
     },
-    "316:10": {
+    "271:10": {
       "questID:3": 329,
       "preRequisites:11": [
         328
@@ -15131,7 +13749,7 @@
         }
       }
     },
-    "317:10": {
+    "272:10": {
       "questID:3": 330,
       "preRequisites:11": [
         18,
@@ -15189,7 +13807,7 @@
       },
       "rewards:9": {}
     },
-    "318:10": {
+    "273:10": {
       "questID:3": 331,
       "preRequisites:11": [
         294,
@@ -15242,7 +13860,7 @@
       },
       "rewards:9": {}
     },
-    "319:10": {
+    "274:10": {
       "questID:3": 332,
       "preRequisites:11": [
         301
@@ -15293,7 +13911,7 @@
       },
       "rewards:9": {}
     },
-    "320:10": {
+    "275:10": {
       "questID:3": 333,
       "preRequisites:11": [
         53
@@ -15344,7 +13962,7 @@
       },
       "rewards:9": {}
     },
-    "321:10": {
+    "276:10": {
       "questID:3": 334,
       "preRequisites:11": [
         336
@@ -15395,7 +14013,7 @@
       },
       "rewards:9": {}
     },
-    "322:10": {
+    "277:10": {
       "questID:3": 335,
       "preRequisites:11": [
         336
@@ -15446,7 +14064,7 @@
       },
       "rewards:9": {}
     },
-    "323:10": {
+    "278:10": {
       "questID:3": 336,
       "preRequisites:11": [
         45
@@ -15479,7 +14097,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "324:10": {
+    "279:10": {
       "questID:3": 337,
       "preRequisites:11": [
         109,
@@ -15549,7 +14167,7 @@
       },
       "rewards:9": {}
     },
-    "325:10": {
+    "280:10": {
       "questID:3": 338,
       "preRequisites:11": [
         340
@@ -15636,7 +14254,7 @@
       },
       "rewards:9": {}
     },
-    "326:10": {
+    "281:10": {
       "questID:3": 339,
       "preRequisites:11": [
         338
@@ -15714,7 +14332,7 @@
       },
       "rewards:9": {}
     },
-    "327:10": {
+    "282:10": {
       "questID:3": 340,
       "preRequisites:11": [
         27
@@ -15747,7 +14365,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "328:10": {
+    "283:10": {
       "questID:3": 341,
       "preRequisites:11": [
         339
@@ -15798,7 +14416,7 @@
       },
       "rewards:9": {}
     },
-    "329:10": {
+    "284:10": {
       "questID:3": 342,
       "preRequisites:11": [
         68
@@ -15857,7 +14475,7 @@
       },
       "rewards:9": {}
     },
-    "330:10": {
+    "285:10": {
       "questID:3": 343,
       "preRequisites:11": [
         342
@@ -15916,7 +14534,7 @@
       },
       "rewards:9": {}
     },
-    "331:10": {
+    "286:10": {
       "questID:3": 344,
       "preRequisites:11": [
         343
@@ -15975,7 +14593,7 @@
       },
       "rewards:9": {}
     },
-    "332:10": {
+    "287:10": {
       "questID:3": 345,
       "preRequisites:11": [
         344
@@ -16026,7 +14644,7 @@
       },
       "rewards:9": {}
     },
-    "333:10": {
+    "288:10": {
       "questID:3": 346,
       "preRequisites:11": [
         347
@@ -16083,7 +14701,7 @@
       },
       "rewards:9": {}
     },
-    "334:10": {
+    "289:10": {
       "questID:3": 347,
       "preRequisites:11": [
         8,
@@ -16117,7 +14735,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "335:10": {
+    "290:10": {
       "questID:3": 348,
       "preRequisites:11": [
         346
@@ -16168,7 +14786,7 @@
       },
       "rewards:9": {}
     },
-    "336:10": {
+    "291:10": {
       "questID:3": 349,
       "preRequisites:11": [
         14
@@ -17491,270 +16109,319 @@
         "2:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": -84,
-          "id:3": 31,
+          "y:3": -24,
+          "id:3": 22,
           "sizeY:3": 24
         },
         "3:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": -24,
+          "id:3": 24,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": -108,
+          "id:3": 31,
+          "sizeY:3": 24
+        },
+        "5:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": -60,
           "id:3": 33,
           "sizeY:3": 24
         },
-        "4:10": {
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 156,
+          "y:3": -24,
+          "id:3": 34,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": -24,
+          "id:3": 35,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": -76,
+          "id:3": 36,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 88,
+          "y:3": -68,
+          "id:3": 37,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 128,
+          "y:3": -60,
+          "id:3": 38,
+          "sizeY:3": 24
+        },
+        "11:10": {
           "sizeX:3": 24,
           "x:3": -204,
           "y:3": -132,
           "id:3": 43,
           "sizeY:3": 24
         },
-        "5:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": -204,
           "y:3": -84,
           "id:3": 44,
           "sizeY:3": 24
         },
-        "6:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": -24,
           "id:3": 46,
           "sizeY:3": 24
         },
-        "7:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": -96,
           "id:3": 47,
           "sizeY:3": 24
         },
-        "8:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": -132,
           "id:3": 48,
           "sizeY:3": 24
         },
-        "9:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": -168,
           "y:3": -120,
           "id:3": 50,
           "sizeY:3": 24
         },
-        "10:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": -168,
           "y:3": -156,
           "id:3": 51,
           "sizeY:3": 24
         },
-        "11:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": -168,
           "y:3": -84,
           "id:3": 52,
           "sizeY:3": 24
         },
-        "12:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": -96,
           "id:3": 54,
           "sizeY:3": 24
         },
-        "13:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -156,
           "id:3": 55,
           "sizeY:3": 24
         },
-        "14:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": -132,
           "id:3": 56,
           "sizeY:3": 24
         },
-        "15:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": -60,
           "id:3": 57,
           "sizeY:3": 24
         },
-        "16:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": -168,
           "id:3": 58,
           "sizeY:3": 24
         },
-        "17:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": -216,
           "id:3": 59,
           "sizeY:3": 24
         },
-        "18:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 48,
-          "y:3": -36,
+          "y:3": -12,
           "id:3": 60,
           "sizeY:3": 24
         },
-        "19:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -192,
           "id:3": 61,
           "sizeY:3": 24
         },
-        "20:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -156,
           "id:3": 62,
           "sizeY:3": 24
         },
-        "21:10": {
+        "28:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -228,
           "id:3": 63,
           "sizeY:3": 24
         },
-        "22:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -216,
           "id:3": 64,
           "sizeY:3": 24
         },
-        "23:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -180,
           "id:3": 65,
           "sizeY:3": 24
         },
-        "24:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -144,
           "id:3": 66,
           "sizeY:3": 24
         },
-        "25:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -120,
           "id:3": 67,
           "sizeY:3": 24
         },
-        "26:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -168,
           "id:3": 68,
           "sizeY:3": 24
         },
-        "27:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -36,
           "id:3": 71,
           "sizeY:3": 24
         },
-        "28:10": {
+        "35:10": {
           "sizeX:3": 12,
           "x:3": -48,
           "y:3": -240,
           "id:3": 72,
           "sizeY:3": 12
         },
-        "29:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -24,
           "id:3": 75,
           "sizeY:3": 24
         },
-        "30:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": -168,
           "id:3": 268,
           "sizeY:3": 24
         },
-        "31:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": -204,
           "id:3": 279,
           "sizeY:3": 24
         },
-        "32:10": {
+        "39:10": {
           "sizeX:3": 12,
           "x:3": -48,
           "y:3": -132,
           "id:3": 321,
           "sizeY:3": 12
         },
-        "33:10": {
+        "40:10": {
           "sizeX:3": 12,
           "x:3": 84,
-          "y:3": -108,
+          "y:3": -120,
           "id:3": 322,
           "sizeY:3": 12
         },
-        "34:10": {
+        "41:10": {
           "sizeX:3": 12,
           "x:3": -48,
           "y:3": -168,
           "id:3": 323,
           "sizeY:3": 12
         },
-        "35:10": {
+        "42:10": {
           "sizeX:3": 12,
           "x:3": -48,
           "y:3": -96,
           "id:3": 325,
           "sizeY:3": 12
         },
-        "36:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 48,
-          "y:3": -84,
+          "y:3": -108,
           "id:3": 330,
           "sizeY:3": 24
         },
-        "37:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": 120,
           "y:3": -132,
           "id:3": 342,
           "sizeY:3": 24
         },
-        "38:10": {
+        "45:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": -168,
           "id:3": 343,
           "sizeY:3": 24
         },
-        "39:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": -96,
           "id:3": 344,
           "sizeY:3": 24
         },
-        "40:10": {
+        "47:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": -132,
@@ -17784,677 +16451,313 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -144,
+          "x:3": -192,
+          "y:3": -60,
+          "id:3": 16,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -228,
+          "y:3": -60,
+          "id:3": 19,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
           "y:3": -60,
           "id:3": 25,
           "sizeY:3": 24
         },
-        "1:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": -192,
           "y:3": -96,
           "id:3": 26,
           "sizeY:3": 24
         },
-        "2:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -96,
           "id:3": 30,
           "sizeY:3": 24
         },
-        "3:10": {
+        "5:10": {
           "sizeX:3": 24,
-          "x:3": -192,
-          "y:3": -60,
+          "x:3": -156,
+          "y:3": -96,
           "id:3": 32,
           "sizeY:3": 24
         },
-        "4:10": {
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -264,
+          "y:3": -60,
+          "id:3": 39,
+          "sizeY:3": 24
+        },
+        "7:10": {
           "sizeX:3": 12,
-          "x:3": -228,
-          "y:3": -108,
+          "x:3": -72,
+          "y:3": -24,
+          "id:3": 40,
+          "sizeY:3": 12
+        },
+        "8:10": {
+          "sizeX:3": 12,
+          "x:3": -156,
+          "y:3": -156,
           "id:3": 73,
           "sizeY:3": 12
         },
-        "5:10": {
+        "9:10": {
           "sizeX:3": 12,
-          "x:3": -228,
-          "y:3": -96,
+          "x:3": -192,
+          "y:3": -144,
           "id:3": 74,
           "sizeY:3": 12
         },
-        "6:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -18,
           "y:3": -60,
           "id:3": 79,
           "sizeY:3": 24
         },
-        "7:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": -96,
           "id:3": 81,
           "sizeY:3": 24
         },
-        "8:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -60,
           "id:3": 85,
           "sizeY:3": 24
         },
-        "9:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -96,
           "id:3": 86,
           "sizeY:3": 24
         },
-        "10:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": -240,
           "id:3": 87,
           "sizeY:3": 24
         },
-        "11:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -132,
           "id:3": 88,
           "sizeY:3": 24
         },
-        "12:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -168,
           "id:3": 89,
           "sizeY:3": 24
         },
-        "13:10": {
+        "17:10": {
           "sizeX:3": 12,
           "x:3": 156,
           "y:3": -84,
           "id:3": 90,
           "sizeY:3": 12
         },
-        "14:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -204,
           "id:3": 91,
           "sizeY:3": 24
         },
-        "15:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -240,
           "id:3": 92,
           "sizeY:3": 24
         },
-        "16:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -276,
           "id:3": 93,
           "sizeY:3": 24
         },
-        "17:10": {
+        "21:10": {
           "sizeX:3": 12,
           "x:3": -84,
           "y:3": -300,
           "id:3": 94,
           "sizeY:3": 12
         },
-        "18:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -132,
           "id:3": 95,
           "sizeY:3": 24
         },
-        "19:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -60,
           "id:3": 96,
           "sizeY:3": 24
         },
-        "20:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -96,
           "id:3": 97,
           "sizeY:3": 24
         },
-        "21:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -60,
           "id:3": 99,
           "sizeY:3": 24
         },
-        "22:10": {
-          "sizeX:3": 4,
-          "x:3": -152,
-          "y:3": -34,
-          "id:3": 128,
-          "sizeY:3": 4
-        },
-        "23:10": {
-          "sizeX:3": 4,
-          "x:3": -148,
-          "y:3": -34,
-          "id:3": 129,
-          "sizeY:3": 4
-        },
-        "24:10": {
-          "sizeX:3": 4,
-          "x:3": -144,
-          "y:3": -34,
-          "id:3": 130,
-          "sizeY:3": 4
-        },
-        "25:10": {
-          "sizeX:3": 4,
-          "x:3": -140,
-          "y:3": -34,
-          "id:3": 131,
-          "sizeY:3": 4
-        },
         "26:10": {
-          "sizeX:3": 4,
-          "x:3": -136,
-          "y:3": -34,
-          "id:3": 132,
-          "sizeY:3": 4
-        },
-        "27:10": {
-          "sizeX:3": 4,
-          "x:3": -132,
-          "y:3": -34,
-          "id:3": 133,
-          "sizeY:3": 4
-        },
-        "28:10": {
-          "sizeX:3": 4,
-          "x:3": -128,
-          "y:3": -34,
-          "id:3": 134,
-          "sizeY:3": 4
-        },
-        "29:10": {
-          "sizeX:3": 4,
-          "x:3": -124,
-          "y:3": -34,
-          "id:3": 135,
-          "sizeY:3": 4
-        },
-        "30:10": {
-          "sizeX:3": 12,
-          "x:3": -156,
-          "y:3": -24,
-          "id:3": 136,
-          "sizeY:3": 12
-        },
-        "31:10": {
-          "sizeX:3": 4,
-          "x:3": -120,
-          "y:3": -34,
-          "id:3": 137,
-          "sizeY:3": 4
-        },
-        "32:10": {
-          "sizeX:3": 4,
-          "x:3": -116,
-          "y:3": -34,
-          "id:3": 138,
-          "sizeY:3": 4
-        },
-        "33:10": {
-          "sizeX:3": 40,
-          "x:3": -152,
-          "y:3": -30,
-          "id:3": 139,
-          "sizeY:3": 1
-        },
-        "34:10": {
-          "sizeX:3": 40,
-          "x:3": -152,
-          "y:3": -35,
-          "id:3": 140,
-          "sizeY:3": 1
-        },
-        "35:10": {
-          "sizeX:3": 12,
-          "x:3": -120,
-          "y:3": -24,
-          "id:3": 141,
-          "sizeY:3": 12
-        },
-        "36:10": {
-          "sizeX:3": 4,
-          "x:3": -26,
-          "y:3": -34,
-          "id:3": 142,
-          "sizeY:3": 4
-        },
-        "37:10": {
-          "sizeX:3": 4,
-          "x:3": -22,
-          "y:3": -34,
-          "id:3": 143,
-          "sizeY:3": 4
-        },
-        "38:10": {
-          "sizeX:3": 4,
-          "x:3": -18,
-          "y:3": -34,
-          "id:3": 144,
-          "sizeY:3": 4
-        },
-        "39:10": {
-          "sizeX:3": 4,
-          "x:3": -14,
-          "y:3": -34,
-          "id:3": 145,
-          "sizeY:3": 4
-        },
-        "40:10": {
-          "sizeX:3": 4,
-          "x:3": -10,
-          "y:3": -34,
-          "id:3": 146,
-          "sizeY:3": 4
-        },
-        "41:10": {
-          "sizeX:3": 4,
-          "x:3": -6,
-          "y:3": -34,
-          "id:3": 147,
-          "sizeY:3": 4
-        },
-        "42:10": {
-          "sizeX:3": 4,
-          "x:3": -2,
-          "y:3": -34,
-          "id:3": 148,
-          "sizeY:3": 4
-        },
-        "43:10": {
-          "sizeX:3": 4,
-          "x:3": 2,
-          "y:3": -34,
-          "id:3": 149,
-          "sizeY:3": 4
-        },
-        "44:10": {
-          "sizeX:3": 12,
-          "x:3": -30,
-          "y:3": -24,
-          "id:3": 150,
-          "sizeY:3": 12
-        },
-        "45:10": {
-          "sizeX:3": 4,
-          "x:3": 6,
-          "y:3": -34,
-          "id:3": 151,
-          "sizeY:3": 4
-        },
-        "46:10": {
-          "sizeX:3": 4,
-          "x:3": 10,
-          "y:3": -34,
-          "id:3": 152,
-          "sizeY:3": 4
-        },
-        "47:10": {
-          "sizeX:3": 40,
-          "x:3": -26,
-          "y:3": -30,
-          "id:3": 153,
-          "sizeY:3": 1
-        },
-        "48:10": {
-          "sizeX:3": 40,
-          "x:3": -26,
-          "y:3": -35,
-          "id:3": 154,
-          "sizeY:3": 1
-        },
-        "49:10": {
-          "sizeX:3": 12,
-          "x:3": 6,
-          "y:3": -24,
-          "id:3": 155,
-          "sizeY:3": 12
-        },
-        "50:10": {
-          "sizeX:3": 4,
-          "x:3": 40,
-          "y:3": -34,
-          "id:3": 156,
-          "sizeY:3": 4
-        },
-        "51:10": {
-          "sizeX:3": 4,
-          "x:3": 44,
-          "y:3": -34,
-          "id:3": 157,
-          "sizeY:3": 4
-        },
-        "52:10": {
-          "sizeX:3": 4,
-          "x:3": 48,
-          "y:3": -34,
-          "id:3": 158,
-          "sizeY:3": 4
-        },
-        "53:10": {
-          "sizeX:3": 4,
-          "x:3": 52,
-          "y:3": -34,
-          "id:3": 159,
-          "sizeY:3": 4
-        },
-        "54:10": {
-          "sizeX:3": 4,
-          "x:3": 56,
-          "y:3": -34,
-          "id:3": 160,
-          "sizeY:3": 4
-        },
-        "55:10": {
-          "sizeX:3": 4,
-          "x:3": 60,
-          "y:3": -34,
-          "id:3": 161,
-          "sizeY:3": 4
-        },
-        "56:10": {
-          "sizeX:3": 4,
-          "x:3": 64,
-          "y:3": -34,
-          "id:3": 162,
-          "sizeY:3": 4
-        },
-        "57:10": {
-          "sizeX:3": 4,
-          "x:3": 68,
-          "y:3": -34,
-          "id:3": 163,
-          "sizeY:3": 4
-        },
-        "58:10": {
-          "sizeX:3": 12,
-          "x:3": 36,
-          "y:3": -24,
-          "id:3": 164,
-          "sizeY:3": 12
-        },
-        "59:10": {
-          "sizeX:3": 4,
-          "x:3": 72,
-          "y:3": -34,
-          "id:3": 165,
-          "sizeY:3": 4
-        },
-        "60:10": {
-          "sizeX:3": 4,
-          "x:3": 76,
-          "y:3": -34,
-          "id:3": 166,
-          "sizeY:3": 4
-        },
-        "61:10": {
-          "sizeX:3": 40,
-          "x:3": 40,
-          "y:3": -30,
-          "id:3": 167,
-          "sizeY:3": 1
-        },
-        "62:10": {
-          "sizeX:3": 40,
-          "x:3": 40,
-          "y:3": -35,
-          "id:3": 168,
-          "sizeY:3": 1
-        },
-        "63:10": {
-          "sizeX:3": 12,
-          "x:3": 72,
-          "y:3": -24,
-          "id:3": 169,
-          "sizeY:3": 12
-        },
-        "64:10": {
-          "sizeX:3": 4,
-          "x:3": 89,
-          "y:3": -34,
-          "id:3": 170,
-          "sizeY:3": 4
-        },
-        "65:10": {
-          "sizeX:3": 4,
-          "x:3": 93,
-          "y:3": -34,
-          "id:3": 171,
-          "sizeY:3": 4
-        },
-        "66:10": {
-          "sizeX:3": 4,
-          "x:3": 97,
-          "y:3": -34,
-          "id:3": 172,
-          "sizeY:3": 4
-        },
-        "67:10": {
-          "sizeX:3": 4,
-          "x:3": 101,
-          "y:3": -34,
-          "id:3": 173,
-          "sizeY:3": 4
-        },
-        "68:10": {
-          "sizeX:3": 4,
-          "x:3": 105,
-          "y:3": -34,
-          "id:3": 174,
-          "sizeY:3": 4
-        },
-        "69:10": {
-          "sizeX:3": 4,
-          "x:3": 109,
-          "y:3": -34,
-          "id:3": 175,
-          "sizeY:3": 4
-        },
-        "70:10": {
-          "sizeX:3": 4,
-          "x:3": 113,
-          "y:3": -34,
-          "id:3": 176,
-          "sizeY:3": 4
-        },
-        "71:10": {
-          "sizeX:3": 4,
-          "x:3": 117,
-          "y:3": -34,
-          "id:3": 177,
-          "sizeY:3": 4
-        },
-        "72:10": {
-          "sizeX:3": 12,
-          "x:3": 84,
-          "y:3": -24,
-          "id:3": 178,
-          "sizeY:3": 12
-        },
-        "73:10": {
-          "sizeX:3": 4,
-          "x:3": 121,
-          "y:3": -34,
-          "id:3": 179,
-          "sizeY:3": 4
-        },
-        "74:10": {
-          "sizeX:3": 4,
-          "x:3": 125,
-          "y:3": -34,
-          "id:3": 180,
-          "sizeY:3": 4
-        },
-        "75:10": {
-          "sizeX:3": 40,
-          "x:3": 89,
-          "y:3": -30,
-          "id:3": 181,
-          "sizeY:3": 1
-        },
-        "76:10": {
-          "sizeX:3": 40,
-          "x:3": 89,
-          "y:3": -35,
-          "id:3": 182,
-          "sizeY:3": 1
-        },
-        "77:10": {
-          "sizeX:3": 12,
-          "x:3": 120,
-          "y:3": -24,
-          "id:3": 183,
-          "sizeY:3": 12
-        },
-        "78:10": {
           "sizeX:3": 24,
           "x:3": 156,
           "y:3": -60,
           "id:3": 262,
           "sizeY:3": 24
         },
-        "79:10": {
+        "27:10": {
           "sizeX:3": 24,
-          "x:3": -216,
-          "y:3": -132,
+          "x:3": -264,
+          "y:3": -96,
           "id:3": 264,
           "sizeY:3": 24
         },
-        "80:10": {
+        "28:10": {
           "sizeX:3": 24,
-          "x:3": -180,
-          "y:3": -132,
+          "x:3": -228,
+          "y:3": -96,
           "id:3": 265,
           "sizeY:3": 24
         },
-        "81:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -204,
           "id:3": 266,
           "sizeY:3": 24
         },
-        "82:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -168,
           "id:3": 267,
           "sizeY:3": 24
         },
-        "83:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": -168,
           "id:3": 280,
           "sizeY:3": 24
         },
-        "84:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -240,
           "id:3": 282,
           "sizeY:3": 24
         },
-        "85:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -276,
           "id:3": 283,
           "sizeY:3": 24
         },
-        "86:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -168,
           "id:3": 287,
           "sizeY:3": 24
         },
-        "87:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -132,
           "id:3": 310,
           "sizeY:3": 24
         },
-        "88:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": -132,
           "id:3": 311,
           "sizeY:3": 24
         },
-        "89:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": -120,
           "y:3": -108,
           "id:3": 312,
           "sizeY:3": 24
         },
-        "90:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": -120,
           "y:3": -144,
           "id:3": 313,
           "sizeY:3": 24
         },
-        "91:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": -120,
           "y:3": -180,
           "id:3": 314,
           "sizeY:3": 24
         },
-        "92:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -96,
           "id:3": 315,
           "sizeY:3": 24
         },
-        "93:10": {
+        "41:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -132,
           "id:3": 316,
           "sizeY:3": 24
         },
-        "94:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -168,
           "id:3": 317,
           "sizeY:3": 24
         },
-        "95:10": {
+        "43:10": {
           "sizeX:3": 12,
           "x:3": 108,
           "y:3": -192,
           "id:3": 324,
           "sizeY:3": 12
         },
-        "96:10": {
+        "44:10": {
           "sizeX:3": 12,
           "x:3": 36,
           "y:3": -228,

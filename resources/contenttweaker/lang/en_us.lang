@@ -28,9 +28,14 @@ item.contenttweaker.trade_buy_rareseeds.name=Buy Rare Seeds
 
 item.contenttweaker.researchtoken.name=The Research Project
 item.contenttweaker.advresearchtoken.name=Advanced Rocket Science
-item.contenttweaker.observatoryreseachtoken.name=Research into Optical Systems
-item.contenttweaker.stationreseachtoken.name=Research of Space Station Technology
-item.contenttweaker.miningreseachtoken.name=Research of Asteroid Mining
+item.contenttweaker.observatoryresearchtoken.name=Research into Optical Systems
+item.contenttweaker.stationresearchtoken.name=Research of Space Station Technology
+item.contenttweaker.miningresearchtoken.name=Research of Asteroid Mining
+
+
+item.contenttweaker.warptoken.name=Warp Systems
+item.contenttweaker.terraformingtoken.name=Terraforming Technology
+item.contenttweaker.gasminingtoken.name=Gas Mining Research
 
 
 

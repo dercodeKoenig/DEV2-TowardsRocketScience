@@ -100,6 +100,8 @@ recipes.remove(<buildcrafttransport:pipe_stone_item>);
 recipes.remove(<buildcrafttransport:pipe_wood_item>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<biomesoplenty:white_dye>, [[null, null, null],[null, <minecraft:quartz>, null], [null, null, null]]);
+recipes.addShaped(<quark:root_dye:1>, [[null, null, null],[null, <railcraft:dust:5>, null], [null, null, null]]);
 recipes.addShaped(<modularmachinery:blockinputbus:5>, [[<ore:stickSteel>, <ore:plateSteel>, <ore:stickSteel>],[<ore:plateSteel>, <modularmachinery:blockinputbus:1>, <ore:plateSteel>], [<ore:stickSteel>, <ore:plateSteel>, <ore:stickSteel>]]);
 recipes.addShaped(<railcraft:track_outfitted>, [[null, null, null],[null, <structurize:sceptergold>.reuse(), null], [null, <railcraft:track_flex_strap_iron>, null]]);
 recipes.addShaped(<twilightforest:hedge>, [[null, null, null],[<ore:treeLeaves>, <ore:treeLeaves>, null], [null, null, null]]);
