@@ -6673,7 +6673,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": 1000,
+          "repeattime:3": -1,
           "visibility:8": "CHAIN",
           "simultaneous:1": 0,
           "icon:10": {
@@ -6694,7 +6694,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "advancement_id:8": "",
+          "advancement_id:8": "advancedrocketry:normal/pressurize",
           "index:3": 0,
           "taskID:8": "bq_standard:advancement"
         }
@@ -6728,7 +6728,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "We made it!",
-          "desc:8": "All the work and research has paid off.\n\nNow we have the all the technology and materials to make our moon habitable again!\n\nIt will probably be years before the original climate is restored, but the foundations can now be set.\n\nCongratulations!"
+          "desc:8": "All the work and research has paid off.\n\nNow we have all the technology and materials to make our moon habitable again!\n\nIt will probably be years before civilization is restored, but the foundation has now been laid\n\nCongratulations!"
         }
       },
       "tasks:9": {},
@@ -7495,14 +7495,14 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Space Laser",
           "desc:8": "The Orbital Laser is mainly used to mine the planet below for ores. \n\nBut it can also terraform the planet after the Biome Changer Satellite has transformed the biomes on it.\n\nEvery Terraforming Terminal will act as a protecting block: The laser will not transform the planet anywhere close to a Terminal. The safe zone is 3 chunks in every direction for every Terminal placed on the target planet."
         }
       },
       "tasks:9": {
         "0:10": {
-          "advancement_id:8": "",
+          "advancement_id:8": "advancedrocketry:normal/deathstar",
           "index:3": 0,
           "taskID:8": "bq_standard:advancement"
         }
@@ -15246,7 +15246,7 @@
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 72,
           "y:3": -12,
           "id:3": 112,
           "sizeY:3": 24
@@ -15267,7 +15267,7 @@
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 108,
           "y:3": -12,
           "id:3": 116,
           "sizeY:3": 24
@@ -17059,7 +17059,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "party_enable:1": 1,
