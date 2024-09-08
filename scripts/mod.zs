@@ -295,3 +295,52 @@ recipes.addShapeless(<immersiveengineering:metal_device0:2>.withTag({BlockEntity
 //mineral mix
 var magnetite = Excavator.getMineral("Magnetite");
 magnetite.addOre("oreTitanium", 0.5);
+
+
+
+
+mods.immersiveengineering.Blueprint.addRecipe("Unmanned Vehicle Assembler", <advancedrocketry:deployablerocketbuilder>, [<libvulpes:productgear:7>*2, <libvulpes:productrod:7>*8, <libvulpes:productdust>*4, <advancedrocketry:rocketbuilder>]);
+
+mods.immersiveengineering.Blueprint.addRecipe("Atmosphere Terraformer", <advancedrocketry:terraformer>, [<advancedrocketry:productgear>*4, <libvulpes:advstructuremachine>, <advancedrocketry:ic:5>*4, <advancedrocketry:misc>, <advancedrocketry:ic:3>*5, <libvulpes:productgem>]);
+
+mods.immersiveengineering.Blueprint.addRecipe("Warp Core", <advancedrocketry:warpcore>, [<immersiveengineering:metal_decoration0>, <libvulpes:productplate:6>*4, <libvulpes:productplate:7>*8, <advancedrocketry:ic:2>*4]);
+
+
+
+//smeltery fixes
+mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <immersiveengineering:material:1>);
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 72,<immersiveengineering:material:1>, 500);
+mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <immersiveengineering:material:2>);
+mods.tconstruct.Melting.addRecipe(<liquid:steel> * 72,<immersiveengineering:material:2>, 500);
+
+mods.tconstruct.Casting.removeTableRecipe(<railcraft:gear:1>);
+mods.tconstruct.Casting.addTableRecipe(<buildcraftcore:gear_iron>, <tconstruct:cast_custom:4>, <liquid:iron>, 576);
+mods.tconstruct.Casting.removeTableRecipe(<railcraft:gear:2>);
+mods.tconstruct.Casting.addTableRecipe(<libvulpes:productgear:6>, <tconstruct:cast_custom:4>, <liquid:steel>, 576);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);
+mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:rail>);
+mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:detector_rail>);
+mods.tconstruct.Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
+
+
+mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <libvulpes:productplate:1>);
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 72,<libvulpes:productplate:1>, 500);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:gold>, <libvulpes:productplate:2>);
+mods.tconstruct.Melting.addRecipe(<liquid:gold> * 72,<libvulpes:productplate:2>, 500);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>, <libvulpes:productplate:9>);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminum> * 72,<libvulpes:productplate:9>, 500);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:copper>, <libvulpes:productplate:4>);
+mods.tconstruct.Melting.addRecipe(<liquid:copper> * 72,<libvulpes:productplate:4>, 500);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:tin>, <libvulpes:productplate:5>);
+mods.tconstruct.Melting.addRecipe(<liquid:tin> * 72,<libvulpes:productplate:5>, 500);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <libvulpes:productplate:6>);
+mods.tconstruct.Melting.addRecipe(<liquid:steel> * 72,<libvulpes:productplate:6>, 500);
+
+
+
