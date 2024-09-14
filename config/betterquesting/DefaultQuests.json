@@ -142,7 +142,7 @@
     "2:10": {
       "questID:3": 2,
       "preRequisites:11": [
-        28
+        7
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -160,7 +160,7 @@
             "OreDict:8": ""
           },
           "globalshare:1": 0,
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
@@ -464,7 +464,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Stirling Engines",
-          "desc:8": "The quarry needs power to operate.\n \nWe should build an engine and connect it to the quarry. Stirling engines burn solid fuel or lava buckets. (You will get the bucket back)"
+          "desc:8": "It is time to think about a certain degree of industrialization. Our first goal should be to craft a Stirling Engine!\n\nStirling engines burn solid fuel or lava buckets. (You will get the bucket back)\n\nActivate engines with a redstone signal!"
         }
       },
       "tasks:9": {
@@ -486,37 +486,12 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "minecraft:coal",
-              "Count:3": 192,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "buildcrafttransport:pipe_wood_power",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "buildcrafttransport:pipe_stone_power",
-              "Count:3": 5,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "8:10": {
       "questID:3": 8,
       "preRequisites:11": [
-        28
+        134
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -540,7 +515,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Combustion Engines",
-          "desc:8": "We can use a combustion engine to burn liquid fuels like oil, diesel and gasoline. \n\nOil can be found in the overworld in form of oil springs. They consist of multiple hundreds buckets of oil. \n\nA combustion engine needs to be cooled with water after a few minutes of running or it will heat up."
+          "desc:8": "With a Combustion Engine, we can burn liquid fuels such as oil, diesel and gasoline. \n\nA Combustion Engine needs to be cooled with water after a few minutes of operation, otherwise it heats up. We can\u0027t say for sure what happens then, but we can assume that either no one has figured it out yet, or that no one who has figured it out has survived it."
         }
       },
       "tasks:9": {
@@ -562,61 +537,11 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "forge:bucketfilled",
-              "Count:3": 1,
-              "tag:10": {
-                "FluidName:8": "diesel",
-                "Amount:3": 1000
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "forge:bucketfilled",
-              "Count:3": 1,
-              "tag:10": {
-                "FluidName:8": "oil",
-                "Amount:3": 1000
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "forge:bucketfilled",
-              "Count:3": 1,
-              "tag:10": {
-                "FluidName:8": "gasoline",
-                "Amount:3": 1000
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "buildcrafttransport:pipe_wood_power",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "4:10": {
-              "id:8": "buildcrafttransport:pipe_stone_power",
-              "Count:3": 5,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "9:10": {
       "questID:3": 9,
       "preRequisites:11": [
-        8,
         7
       ],
       "properties:10": {
@@ -669,14 +594,7 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "amount:3": 5,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 0
-        }
-      }
+      "rewards:9": {}
     },
     "10:10": {
       "questID:3": 10,
@@ -1518,14 +1436,7 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "amount:3": 1,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 0
-        }
-      }
+      "rewards:9": {}
     },
     "22:10": {
       "questID:3": 22,
@@ -1639,14 +1550,7 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "amount:3": 1,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 0
-        }
-      }
+      "rewards:9": {}
     },
     "24:10": {
       "questID:3": 24,
@@ -1885,7 +1789,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "minecraft:writable_book",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -7565,6 +7469,108 @@
       "rewards:9": {}
     },
     "130:10": {
+      "questID:3": 130,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "buildcraftfactory:pump",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Pump",
+          "desc:8": "Place the Pump above a liquid block to pump it up!\n\nThe Pump can be powered with a simple redstone engine, but it would go faster if you give it some real power.\n\nThe Pump will output fluids to pipes or tanks next to it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "buildcraftfactory:pump",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "131:10": {
+      "questID:3": 131,
+      "preRequisites:11": [
+        130
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "buildcraftfactory:tank",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Fluid Tanks",
+          "desc:8": "The Tank is a good way to store fluids. Let\u0027s build one! \n\nOr two.\nOr maybe even 3?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "buildcraftfactory:tank",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "132:10": {
       "questID:3": 132,
       "preRequisites:11": [],
       "properties:10": {
@@ -7600,7 +7606,254 @@
       },
       "rewards:9": {}
     },
-    "131:10": {
+    "133:10": {
+      "questID:3": 133,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "buildcraftcore:marker_volume",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Land Marks",
+          "desc:8": "You may have noticed that the area of the quarry is a little small.\n\nUse 3 landmarks to mark an area for the quarry to mine. You need to mark 3 corners to define a rectangular area. you can click a landmark to show the area.\n\nNow place the quarry anywhere on the edge of the marked area."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "buildcraftcore:marker_volume",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "134:10": {
+      "questID:3": 134,
+      "preRequisites:11": [
+        131
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "forge:bucketfilled",
+            "Count:3": 1,
+            "tag:10": {
+              "FluidName:8": "oil",
+              "Amount:3": 1000
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Oil",
+          "desc:8": "A great alternative to the solid fuels used in Stirling engines is oil.\n\nOil is deep underground - so deep that we need more advanced machines to reach it....\n\nBut sometimes the oil finds its own way to the surface in the form of oil wells. You can easily recognize them - they are huge oil fountains. Use the pump to gather it in large quantities. \n\nA reservoir usually consist of multiple hundreds buckets of oil. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "forge:bucketfilled",
+              "Count:3": 1,
+              "tag:10": {
+                "FluidName:8": "oil",
+                "Amount:3": 1000
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "135:10": {
+      "questID:3": 135,
+      "preRequisites:11": [
+        8
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "buildcraftfactory:distiller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Distiller",
+          "desc:8": "This machine is very interesting. Pipe some oil in and give it energy and it will refine the oil into fuel. \n\nFuel provides much more power when burned in combustion engines than oil and it lasts longer.\n\nYou can extract the refined outputs using wooden pipes at the top and bottom. \n\nYou invest some energy to make more energy. Simple as that!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "buildcraftfactory:distiller",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "136:10": {
+      "questID:3": 136,
+      "preRequisites:11": [
+        2,
+        135,
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 1,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "HIDDEN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "OR",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "bridge_chunkload",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "137:10": {
+      "questID:3": 137,
+      "preRequisites:11": [
+        136
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chickenchunks:chunk_loader",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Chunk Loading",
+          "desc:8": "The Chunk Loader allows your machines to continue running even when you are nowhere around."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "chickenchunks:chunk_loader",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "138:10": {
       "questID:3": 184,
       "preRequisites:11": [
         206
@@ -7633,7 +7886,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "132:10": {
+    "139:10": {
       "questID:3": 185,
       "preRequisites:11": [
         184
@@ -7666,7 +7919,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "133:10": {
+    "140:10": {
       "questID:3": 186,
       "preRequisites:11": [
         185
@@ -7699,7 +7952,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "134:10": {
+    "141:10": {
       "questID:3": 187,
       "preRequisites:11": [
         186
@@ -7732,7 +7985,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "135:10": {
+    "142:10": {
       "questID:3": 188,
       "preRequisites:11": [
         187
@@ -7765,7 +8018,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "136:10": {
+    "143:10": {
       "questID:3": 189,
       "preRequisites:11": [
         188
@@ -7798,7 +8051,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "137:10": {
+    "144:10": {
       "questID:3": 190,
       "preRequisites:11": [
         189
@@ -7831,7 +8084,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "138:10": {
+    "145:10": {
       "questID:3": 191,
       "preRequisites:11": [
         190
@@ -7864,7 +8117,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "139:10": {
+    "146:10": {
       "questID:3": 192,
       "preRequisites:11": [
         191
@@ -7897,7 +8150,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "140:10": {
+    "147:10": {
       "questID:3": 193,
       "preRequisites:11": [
         192
@@ -7930,7 +8183,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "141:10": {
+    "148:10": {
       "questID:3": 194,
       "preRequisites:11": [
         193
@@ -7963,7 +8216,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "142:10": {
+    "149:10": {
       "questID:3": 195,
       "preRequisites:11": [
         194
@@ -7996,7 +8249,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "143:10": {
+    "150:10": {
       "questID:3": 196,
       "preRequisites:11": [
         195
@@ -8029,7 +8282,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "144:10": {
+    "151:10": {
       "questID:3": 197,
       "preRequisites:11": [
         196
@@ -8062,7 +8315,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "145:10": {
+    "152:10": {
       "questID:3": 198,
       "preRequisites:11": [
         197
@@ -8095,7 +8348,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "146:10": {
+    "153:10": {
       "questID:3": 199,
       "preRequisites:11": [
         198
@@ -8128,7 +8381,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "147:10": {
+    "154:10": {
       "questID:3": 200,
       "preRequisites:11": [
         199
@@ -8161,7 +8414,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "148:10": {
+    "155:10": {
       "questID:3": 201,
       "preRequisites:11": [
         200
@@ -8194,7 +8447,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "149:10": {
+    "156:10": {
       "questID:3": 202,
       "preRequisites:11": [
         201
@@ -8227,7 +8480,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "150:10": {
+    "157:10": {
       "questID:3": 203,
       "preRequisites:11": [
         202
@@ -8260,7 +8513,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "151:10": {
+    "158:10": {
       "questID:3": 204,
       "preRequisites:11": [
         206
@@ -8293,7 +8546,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "152:10": {
+    "159:10": {
       "questID:3": 205,
       "preRequisites:11": [
         206
@@ -8326,7 +8579,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "153:10": {
+    "160:10": {
       "questID:3": 206,
       "preRequisites:11": [
         101
@@ -8370,7 +8623,7 @@
         }
       }
     },
-    "154:10": {
+    "161:10": {
       "questID:3": 207,
       "preRequisites:11": [
         203
@@ -8403,7 +8656,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "155:10": {
+    "162:10": {
       "questID:3": 208,
       "preRequisites:11": [
         209
@@ -8436,7 +8689,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "156:10": {
+    "163:10": {
       "questID:3": 209,
       "preRequisites:11": [
         207
@@ -8486,7 +8739,7 @@
         }
       }
     },
-    "157:10": {
+    "164:10": {
       "questID:3": 210,
       "preRequisites:11": [
         232
@@ -8519,7 +8772,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "158:10": {
+    "165:10": {
       "questID:3": 211,
       "preRequisites:11": [
         210
@@ -8552,7 +8805,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "159:10": {
+    "166:10": {
       "questID:3": 212,
       "preRequisites:11": [
         211
@@ -8585,7 +8838,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "160:10": {
+    "167:10": {
       "questID:3": 213,
       "preRequisites:11": [
         212
@@ -8618,7 +8871,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "161:10": {
+    "168:10": {
       "questID:3": 214,
       "preRequisites:11": [
         213
@@ -8651,7 +8904,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "162:10": {
+    "169:10": {
       "questID:3": 215,
       "preRequisites:11": [
         214
@@ -8684,7 +8937,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "163:10": {
+    "170:10": {
       "questID:3": 216,
       "preRequisites:11": [
         215
@@ -8717,7 +8970,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "164:10": {
+    "171:10": {
       "questID:3": 217,
       "preRequisites:11": [
         216
@@ -8750,7 +9003,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "165:10": {
+    "172:10": {
       "questID:3": 218,
       "preRequisites:11": [
         217
@@ -8783,7 +9036,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "166:10": {
+    "173:10": {
       "questID:3": 219,
       "preRequisites:11": [
         218
@@ -8816,7 +9069,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "167:10": {
+    "174:10": {
       "questID:3": 220,
       "preRequisites:11": [
         219
@@ -8849,7 +9102,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "168:10": {
+    "175:10": {
       "questID:3": 221,
       "preRequisites:11": [
         220
@@ -8882,7 +9135,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "169:10": {
+    "176:10": {
       "questID:3": 222,
       "preRequisites:11": [
         221
@@ -8915,7 +9168,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "170:10": {
+    "177:10": {
       "questID:3": 223,
       "preRequisites:11": [
         222
@@ -8948,7 +9201,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "171:10": {
+    "178:10": {
       "questID:3": 224,
       "preRequisites:11": [
         223
@@ -8981,7 +9234,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "172:10": {
+    "179:10": {
       "questID:3": 225,
       "preRequisites:11": [
         224
@@ -9014,7 +9267,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "173:10": {
+    "180:10": {
       "questID:3": 226,
       "preRequisites:11": [
         225
@@ -9047,7 +9300,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "174:10": {
+    "181:10": {
       "questID:3": 227,
       "preRequisites:11": [
         226
@@ -9080,7 +9333,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "175:10": {
+    "182:10": {
       "questID:3": 228,
       "preRequisites:11": [
         227
@@ -9113,7 +9366,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "176:10": {
+    "183:10": {
       "questID:3": 229,
       "preRequisites:11": [
         228
@@ -9146,7 +9399,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "177:10": {
+    "184:10": {
       "questID:3": 230,
       "preRequisites:11": [
         232
@@ -9179,7 +9432,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "178:10": {
+    "185:10": {
       "questID:3": 231,
       "preRequisites:11": [
         232
@@ -9212,7 +9465,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "179:10": {
+    "186:10": {
       "questID:3": 232,
       "preRequisites:11": [
         103
@@ -9256,7 +9509,7 @@
         }
       }
     },
-    "180:10": {
+    "187:10": {
       "questID:3": 233,
       "preRequisites:11": [
         229
@@ -9289,7 +9542,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "181:10": {
+    "188:10": {
       "questID:3": 234,
       "preRequisites:11": [
         233
@@ -9339,7 +9592,7 @@
         }
       }
     },
-    "182:10": {
+    "189:10": {
       "questID:3": 235,
       "preRequisites:11": [
         257
@@ -9372,7 +9625,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "183:10": {
+    "190:10": {
       "questID:3": 236,
       "preRequisites:11": [
         235
@@ -9405,7 +9658,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "184:10": {
+    "191:10": {
       "questID:3": 237,
       "preRequisites:11": [
         236
@@ -9438,7 +9691,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "185:10": {
+    "192:10": {
       "questID:3": 238,
       "preRequisites:11": [
         237
@@ -9471,7 +9724,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "186:10": {
+    "193:10": {
       "questID:3": 239,
       "preRequisites:11": [
         238
@@ -9504,7 +9757,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "187:10": {
+    "194:10": {
       "questID:3": 240,
       "preRequisites:11": [
         239
@@ -9537,7 +9790,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "188:10": {
+    "195:10": {
       "questID:3": 241,
       "preRequisites:11": [
         240
@@ -9570,7 +9823,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "189:10": {
+    "196:10": {
       "questID:3": 242,
       "preRequisites:11": [
         241
@@ -9603,7 +9856,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "190:10": {
+    "197:10": {
       "questID:3": 243,
       "preRequisites:11": [
         242
@@ -9636,7 +9889,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "191:10": {
+    "198:10": {
       "questID:3": 244,
       "preRequisites:11": [
         243
@@ -9669,7 +9922,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "192:10": {
+    "199:10": {
       "questID:3": 245,
       "preRequisites:11": [
         244
@@ -9702,7 +9955,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "193:10": {
+    "200:10": {
       "questID:3": 246,
       "preRequisites:11": [
         245
@@ -9735,7 +9988,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "194:10": {
+    "201:10": {
       "questID:3": 247,
       "preRequisites:11": [
         246
@@ -9768,7 +10021,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "195:10": {
+    "202:10": {
       "questID:3": 248,
       "preRequisites:11": [
         247
@@ -9801,7 +10054,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "196:10": {
+    "203:10": {
       "questID:3": 249,
       "preRequisites:11": [
         248
@@ -9834,7 +10087,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "197:10": {
+    "204:10": {
       "questID:3": 250,
       "preRequisites:11": [
         249
@@ -9867,7 +10120,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "198:10": {
+    "205:10": {
       "questID:3": 251,
       "preRequisites:11": [
         250
@@ -9900,7 +10153,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "199:10": {
+    "206:10": {
       "questID:3": 252,
       "preRequisites:11": [
         251
@@ -9933,7 +10186,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "200:10": {
+    "207:10": {
       "questID:3": 253,
       "preRequisites:11": [
         252
@@ -9966,7 +10219,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "201:10": {
+    "208:10": {
       "questID:3": 254,
       "preRequisites:11": [
         253
@@ -9999,7 +10252,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "202:10": {
+    "209:10": {
       "questID:3": 255,
       "preRequisites:11": [
         257
@@ -10032,7 +10285,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "203:10": {
+    "210:10": {
       "questID:3": 256,
       "preRequisites:11": [
         257
@@ -10065,7 +10318,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "204:10": {
+    "211:10": {
       "questID:3": 257,
       "preRequisites:11": [
         100
@@ -10109,7 +10362,7 @@
         }
       }
     },
-    "205:10": {
+    "212:10": {
       "questID:3": 258,
       "preRequisites:11": [
         254
@@ -10142,7 +10395,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "206:10": {
+    "213:10": {
       "questID:3": 259,
       "preRequisites:11": [
         258
@@ -10192,7 +10445,7 @@
         }
       }
     },
-    "207:10": {
+    "214:10": {
       "questID:3": 260,
       "preRequisites:11": [
         98,
@@ -10274,7 +10527,7 @@
       },
       "rewards:9": {}
     },
-    "208:10": {
+    "215:10": {
       "questID:3": 261,
       "preRequisites:11": [
         234
@@ -10331,7 +10584,7 @@
         }
       }
     },
-    "209:10": {
+    "216:10": {
       "questID:3": 262,
       "preRequisites:11": [
         79,
@@ -10366,7 +10619,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "210:10": {
+    "217:10": {
       "questID:3": 263,
       "preRequisites:11": [
         42
@@ -10465,7 +10718,7 @@
       },
       "rewards:9": {}
     },
-    "211:10": {
+    "218:10": {
       "questID:3": 264,
       "preRequisites:11": [
         26
@@ -10516,7 +10769,7 @@
       },
       "rewards:9": {}
     },
-    "212:10": {
+    "219:10": {
       "questID:3": 265,
       "preRequisites:11": [
         26
@@ -10567,7 +10820,7 @@
       },
       "rewards:9": {}
     },
-    "213:10": {
+    "220:10": {
       "questID:3": 266,
       "preRequisites:11": [
         267
@@ -10618,7 +10871,7 @@
       },
       "rewards:9": {}
     },
-    "214:10": {
+    "221:10": {
       "questID:3": 267,
       "preRequisites:11": [
         95,
@@ -10657,7 +10910,7 @@
       },
       "rewards:9": {}
     },
-    "215:10": {
+    "222:10": {
       "questID:3": 268,
       "preRequisites:11": [
         17
@@ -10720,7 +10973,7 @@
       },
       "rewards:9": {}
     },
-    "216:10": {
+    "223:10": {
       "questID:3": 269,
       "preRequisites:11": [
         47
@@ -10761,7 +11014,7 @@
       },
       "rewards:9": {}
     },
-    "217:10": {
+    "224:10": {
       "questID:3": 270,
       "preRequisites:11": [
         268
@@ -10799,7 +11052,7 @@
       },
       "rewards:9": {}
     },
-    "218:10": {
+    "225:10": {
       "questID:3": 271,
       "preRequisites:11": [
         47
@@ -10837,7 +11090,7 @@
       },
       "rewards:9": {}
     },
-    "219:10": {
+    "226:10": {
       "questID:3": 272,
       "preRequisites:11": [
         87
@@ -10875,7 +11128,7 @@
       },
       "rewards:9": {}
     },
-    "220:10": {
+    "227:10": {
       "questID:3": 273,
       "preRequisites:11": [
         110
@@ -10917,7 +11170,7 @@
       },
       "rewards:9": {}
     },
-    "221:10": {
+    "228:10": {
       "questID:3": 274,
       "preRequisites:11": [
         18
@@ -10955,7 +11208,7 @@
       },
       "rewards:9": {}
     },
-    "222:10": {
+    "229:10": {
       "questID:3": 275,
       "preRequisites:11": [
         317
@@ -10993,7 +11246,7 @@
       },
       "rewards:9": {}
     },
-    "223:10": {
+    "230:10": {
       "questID:3": 276,
       "preRequisites:11": [
         110
@@ -11031,7 +11284,7 @@
       },
       "rewards:9": {}
     },
-    "224:10": {
+    "231:10": {
       "questID:3": 277,
       "preRequisites:11": [
         48
@@ -11082,7 +11335,7 @@
       },
       "rewards:9": {}
     },
-    "225:10": {
+    "232:10": {
       "questID:3": 278,
       "preRequisites:11": [
         347
@@ -11139,7 +11392,7 @@
       },
       "rewards:9": {}
     },
-    "226:10": {
+    "233:10": {
       "questID:3": 279,
       "preRequisites:11": [
         268
@@ -11190,7 +11443,7 @@
       },
       "rewards:9": {}
     },
-    "227:10": {
+    "234:10": {
       "questID:3": 280,
       "preRequisites:11": [
         311
@@ -11228,7 +11481,7 @@
       },
       "rewards:9": {}
     },
-    "228:10": {
+    "235:10": {
       "questID:3": 281,
       "preRequisites:11": [
         347
@@ -11285,7 +11538,7 @@
       },
       "rewards:9": {}
     },
-    "229:10": {
+    "236:10": {
       "questID:3": 282,
       "preRequisites:11": [
         266
@@ -11360,7 +11613,7 @@
       },
       "rewards:9": {}
     },
-    "230:10": {
+    "237:10": {
       "questID:3": 283,
       "preRequisites:11": [
         282
@@ -11435,7 +11688,7 @@
       },
       "rewards:9": {}
     },
-    "231:10": {
+    "238:10": {
       "questID:3": 284,
       "preRequisites:11": [
         285
@@ -11473,7 +11726,7 @@
       },
       "rewards:9": {}
     },
-    "232:10": {
+    "239:10": {
       "questID:3": 285,
       "preRequisites:11": [
         304
@@ -11517,7 +11770,7 @@
         }
       }
     },
-    "233:10": {
+    "240:10": {
       "questID:3": 286,
       "preRequisites:11": [
         285
@@ -11550,7 +11803,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "234:10": {
+    "241:10": {
       "questID:3": 287,
       "preRequisites:11": [
         310
@@ -11588,7 +11841,7 @@
       },
       "rewards:9": {}
     },
-    "235:10": {
+    "242:10": {
       "questID:3": 288,
       "preRequisites:11": [
         271
@@ -11666,7 +11919,7 @@
       },
       "rewards:9": {}
     },
-    "236:10": {
+    "243:10": {
       "questID:3": 289,
       "preRequisites:11": [
         288
@@ -11741,7 +11994,7 @@
       },
       "rewards:9": {}
     },
-    "237:10": {
+    "244:10": {
       "questID:3": 290,
       "preRequisites:11": [
         274
@@ -11804,7 +12057,7 @@
       },
       "rewards:9": {}
     },
-    "238:10": {
+    "245:10": {
       "questID:3": 291,
       "preRequisites:11": [
         290
@@ -11872,7 +12125,7 @@
       },
       "rewards:9": {}
     },
-    "239:10": {
+    "246:10": {
       "questID:3": 292,
       "preRequisites:11": [
         290
@@ -11933,7 +12186,7 @@
       },
       "rewards:9": {}
     },
-    "240:10": {
+    "247:10": {
       "questID:3": 293,
       "preRequisites:11": [
         290
@@ -12015,7 +12268,7 @@
       },
       "rewards:9": {}
     },
-    "241:10": {
+    "248:10": {
       "questID:3": 294,
       "preRequisites:11": [
         290
@@ -12076,7 +12329,7 @@
       },
       "rewards:9": {}
     },
-    "242:10": {
+    "249:10": {
       "questID:3": 295,
       "preRequisites:11": [
         292,
@@ -12115,7 +12368,7 @@
       },
       "rewards:9": {}
     },
-    "243:10": {
+    "250:10": {
       "questID:3": 296,
       "preRequisites:11": [
         269
@@ -12196,7 +12449,7 @@
       },
       "rewards:9": {}
     },
-    "244:10": {
+    "251:10": {
       "questID:3": 297,
       "preRequisites:11": [
         296
@@ -12286,7 +12539,7 @@
       },
       "rewards:9": {}
     },
-    "245:10": {
+    "252:10": {
       "questID:3": 298,
       "preRequisites:11": [
         270
@@ -12337,7 +12590,7 @@
       },
       "rewards:9": {}
     },
-    "246:10": {
+    "253:10": {
       "questID:3": 299,
       "preRequisites:11": [
         272
@@ -12394,7 +12647,7 @@
       },
       "rewards:9": {}
     },
-    "247:10": {
+    "254:10": {
       "questID:3": 300,
       "preRequisites:11": [
         273
@@ -12445,7 +12698,7 @@
       },
       "rewards:9": {}
     },
-    "248:10": {
+    "255:10": {
       "questID:3": 301,
       "preRequisites:11": [
         275
@@ -12496,7 +12749,7 @@
       },
       "rewards:9": {}
     },
-    "249:10": {
+    "256:10": {
       "questID:3": 302,
       "preRequisites:11": [
         301
@@ -12547,7 +12800,7 @@
       },
       "rewards:9": {}
     },
-    "250:10": {
+    "257:10": {
       "questID:3": 303,
       "preRequisites:11": [
         276
@@ -12598,7 +12851,7 @@
       },
       "rewards:9": {}
     },
-    "251:10": {
+    "258:10": {
       "questID:3": 304,
       "preRequisites:11": [
         305
@@ -12631,7 +12884,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "252:10": {
+    "259:10": {
       "questID:3": 305,
       "preRequisites:11": [
         306
@@ -12664,7 +12917,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "253:10": {
+    "260:10": {
       "questID:3": 306,
       "preRequisites:11": [
         307
@@ -12697,7 +12950,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "254:10": {
+    "261:10": {
       "questID:3": 307,
       "preRequisites:11": [
         308
@@ -12730,7 +12983,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "255:10": {
+    "262:10": {
       "questID:3": 308,
       "preRequisites:11": [
         309
@@ -12763,7 +13016,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "256:10": {
+    "263:10": {
       "questID:3": 309,
       "preRequisites:11": [
         106
@@ -12796,7 +13049,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "257:10": {
+    "264:10": {
       "questID:3": 310,
       "preRequisites:11": [
         97
@@ -12877,7 +13130,7 @@
       },
       "rewards:9": {}
     },
-    "258:10": {
+    "265:10": {
       "questID:3": 311,
       "preRequisites:11": [
         81
@@ -12970,7 +13223,7 @@
       },
       "rewards:9": {}
     },
-    "259:10": {
+    "266:10": {
       "questID:3": 312,
       "preRequisites:11": [
         85
@@ -13021,7 +13274,7 @@
       },
       "rewards:9": {}
     },
-    "260:10": {
+    "267:10": {
       "questID:3": 313,
       "preRequisites:11": [
         312
@@ -13096,7 +13349,7 @@
       },
       "rewards:9": {}
     },
-    "261:10": {
+    "268:10": {
       "questID:3": 314,
       "preRequisites:11": [
         313
@@ -13147,7 +13400,7 @@
       },
       "rewards:9": {}
     },
-    "262:10": {
+    "269:10": {
       "questID:3": 315,
       "preRequisites:11": [
         99
@@ -13198,7 +13451,7 @@
       },
       "rewards:9": {}
     },
-    "263:10": {
+    "270:10": {
       "questID:3": 316,
       "preRequisites:11": [
         315
@@ -13255,7 +13508,7 @@
       },
       "rewards:9": {}
     },
-    "264:10": {
+    "271:10": {
       "questID:3": 317,
       "preRequisites:11": [
         316
@@ -13293,7 +13546,7 @@
       },
       "rewards:9": {}
     },
-    "265:10": {
+    "272:10": {
       "questID:3": 318,
       "preRequisites:11": [
         276
@@ -13374,7 +13627,7 @@
       },
       "rewards:9": {}
     },
-    "266:10": {
+    "273:10": {
       "questID:3": 319,
       "preRequisites:11": [
         74
@@ -13425,7 +13678,7 @@
       },
       "rewards:9": {}
     },
-    "267:10": {
+    "274:10": {
       "questID:3": 320,
       "preRequisites:11": [
         110
@@ -13469,7 +13722,7 @@
         }
       }
     },
-    "268:10": {
+    "275:10": {
       "questID:3": 321,
       "preRequisites:11": [
         48
@@ -13513,7 +13766,7 @@
         }
       }
     },
-    "269:10": {
+    "276:10": {
       "questID:3": 322,
       "preRequisites:11": [
         330
@@ -13557,7 +13810,7 @@
         }
       }
     },
-    "270:10": {
+    "277:10": {
       "questID:3": 323,
       "preRequisites:11": [
         268
@@ -13601,7 +13854,7 @@
         }
       }
     },
-    "271:10": {
+    "278:10": {
       "questID:3": 324,
       "preRequisites:11": [
         317
@@ -13645,7 +13898,7 @@
         }
       }
     },
-    "272:10": {
+    "279:10": {
       "questID:3": 325,
       "preRequisites:11": [
         47
@@ -13689,7 +13942,7 @@
         }
       }
     },
-    "273:10": {
+    "280:10": {
       "questID:3": 326,
       "preRequisites:11": [
         87
@@ -13733,7 +13986,7 @@
         }
       }
     },
-    "274:10": {
+    "281:10": {
       "questID:3": 327,
       "preRequisites:11": [
         286
@@ -13784,7 +14037,7 @@
       },
       "rewards:9": {}
     },
-    "275:10": {
+    "282:10": {
       "questID:3": 328,
       "preRequisites:11": [],
       "properties:10": {
@@ -13826,7 +14079,7 @@
         }
       }
     },
-    "276:10": {
+    "283:10": {
       "questID:3": 330,
       "preRequisites:11": [
         18,
@@ -13884,7 +14137,7 @@
       },
       "rewards:9": {}
     },
-    "277:10": {
+    "284:10": {
       "questID:3": 331,
       "preRequisites:11": [
         294,
@@ -13937,7 +14190,7 @@
       },
       "rewards:9": {}
     },
-    "278:10": {
+    "285:10": {
       "questID:3": 332,
       "preRequisites:11": [
         301
@@ -13988,7 +14241,7 @@
       },
       "rewards:9": {}
     },
-    "279:10": {
+    "286:10": {
       "questID:3": 333,
       "preRequisites:11": [
         53
@@ -14039,7 +14292,7 @@
       },
       "rewards:9": {}
     },
-    "280:10": {
+    "287:10": {
       "questID:3": 334,
       "preRequisites:11": [
         336
@@ -14090,7 +14343,7 @@
       },
       "rewards:9": {}
     },
-    "281:10": {
+    "288:10": {
       "questID:3": 335,
       "preRequisites:11": [
         336
@@ -14141,7 +14394,7 @@
       },
       "rewards:9": {}
     },
-    "282:10": {
+    "289:10": {
       "questID:3": 336,
       "preRequisites:11": [
         45
@@ -14174,7 +14427,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "283:10": {
+    "290:10": {
       "questID:3": 337,
       "preRequisites:11": [
         109,
@@ -14244,7 +14497,7 @@
       },
       "rewards:9": {}
     },
-    "284:10": {
+    "291:10": {
       "questID:3": 338,
       "preRequisites:11": [
         340
@@ -14331,7 +14584,7 @@
       },
       "rewards:9": {}
     },
-    "285:10": {
+    "292:10": {
       "questID:3": 339,
       "preRequisites:11": [
         338
@@ -14409,7 +14662,7 @@
       },
       "rewards:9": {}
     },
-    "286:10": {
+    "293:10": {
       "questID:3": 340,
       "preRequisites:11": [
         27
@@ -14442,7 +14695,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "287:10": {
+    "294:10": {
       "questID:3": 341,
       "preRequisites:11": [
         339
@@ -14493,7 +14746,7 @@
       },
       "rewards:9": {}
     },
-    "288:10": {
+    "295:10": {
       "questID:3": 342,
       "preRequisites:11": [
         68
@@ -14552,7 +14805,7 @@
       },
       "rewards:9": {}
     },
-    "289:10": {
+    "296:10": {
       "questID:3": 343,
       "preRequisites:11": [
         342
@@ -14611,7 +14864,7 @@
       },
       "rewards:9": {}
     },
-    "290:10": {
+    "297:10": {
       "questID:3": 344,
       "preRequisites:11": [
         343
@@ -14670,7 +14923,7 @@
       },
       "rewards:9": {}
     },
-    "291:10": {
+    "298:10": {
       "questID:3": 345,
       "preRequisites:11": [
         344
@@ -14721,7 +14974,7 @@
       },
       "rewards:9": {}
     },
-    "292:10": {
+    "299:10": {
       "questID:3": 346,
       "preRequisites:11": [
         347
@@ -14778,10 +15031,9 @@
       },
       "rewards:9": {}
     },
-    "293:10": {
+    "300:10": {
       "questID:3": 347,
       "preRequisites:11": [
-        8,
         7
       ],
       "properties:10": {
@@ -14812,7 +15064,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "294:10": {
+    "301:10": {
       "questID:3": 348,
       "preRequisites:11": [
         346
@@ -14863,7 +15115,7 @@
       },
       "rewards:9": {}
     },
-    "295:10": {
+    "302:10": {
       "questID:3": 349,
       "preRequisites:11": [
         14
@@ -14971,8 +15223,8 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": 48,
+          "x:3": -156,
+          "y:3": 72,
           "id:3": 2,
           "sizeY:3": 24
         },
@@ -14999,21 +15251,21 @@
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -88,
-          "y:3": 64,
+          "x:3": -120,
+          "y:3": 36,
           "id:3": 7,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -88,
-          "y:3": 24,
+          "x:3": -48,
+          "y:3": 108,
           "id:3": 8,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -48,
+          "x:3": -84,
           "y:3": 72,
           "id:3": 9,
           "sizeY:3": 24
@@ -15062,14 +15314,14 @@
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -8,
+          "x:3": -48,
           "y:3": 72,
           "id:3": 21,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": -12,
           "y:3": 72,
           "id:3": 23,
           "sizeY:3": 24
@@ -15089,55 +15341,104 @@
           "sizeY:3": 24
         },
         "19:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 72,
+          "id:3": 130,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 108,
+          "id:3": 131,
+          "sizeY:3": 24
+        },
+        "21:10": {
           "sizeX:3": 12,
           "x:3": -168,
           "y:3": -36,
           "id:3": 132,
           "sizeY:3": 12
         },
-        "20:10": {
-          "sizeX:3": 16,
-          "x:3": -48,
-          "y:3": 24,
-          "id:3": 278,
-          "sizeY:3": 16
-        },
-        "21:10": {
-          "sizeX:3": 16,
-          "x:3": -48,
-          "y:3": 48,
-          "id:3": 281,
-          "sizeY:3": 16
-        },
         "22:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": 108,
+          "id:3": 133,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 108,
+          "id:3": 134,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 108,
+          "id:3": 135,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 12,
+          "x:3": -216,
+          "y:3": 60,
+          "id:3": 136,
+          "sizeY:3": 12
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 24,
+          "id:3": 137,
+          "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 20,
+          "x:3": -54,
+          "y:3": 42,
+          "id:3": 278,
+          "sizeY:3": 18
+        },
+        "28:10": {
+          "sizeX:3": 20,
+          "x:3": -78,
+          "y:3": 42,
+          "id:3": 281,
+          "sizeY:3": 18
+        },
+        "29:10": {
           "sizeX:3": 24,
           "x:3": -128,
           "y:3": -96,
           "id:3": 328,
           "sizeY:3": 24
         },
-        "23:10": {
-          "sizeX:3": 16,
-          "x:3": -24,
-          "y:3": 24,
+        "30:10": {
+          "sizeX:3": 20,
+          "x:3": -30,
+          "y:3": 42,
           "id:3": 346,
-          "sizeY:3": 16
+          "sizeY:3": 18
         },
-        "24:10": {
+        "31:10": {
           "sizeX:3": 8,
           "x:3": -56,
           "y:3": 16,
           "id:3": 347,
           "sizeY:3": 8
         },
-        "25:10": {
-          "sizeX:3": 16,
-          "x:3": -24,
-          "y:3": 48,
+        "32:10": {
+          "sizeX:3": 20,
+          "x:3": -6,
+          "y:3": 42,
           "id:3": 348,
-          "sizeY:3": 16
+          "sizeY:3": 18
         },
-        "26:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": 24,
           "y:3": -84,
@@ -16360,166 +16661,145 @@
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -216,
-          "id:3": 59,
-          "sizeY:3": 24
-        },
-        "25:10": {
-          "sizeX:3": 24,
           "x:3": 48,
           "y:3": -12,
           "id:3": 60,
           "sizeY:3": 24
         },
-        "26:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -192,
           "id:3": 61,
           "sizeY:3": 24
         },
-        "27:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -156,
           "id:3": 62,
           "sizeY:3": 24
         },
-        "28:10": {
-          "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -228,
-          "id:3": 63,
-          "sizeY:3": 24
-        },
-        "29:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -216,
           "id:3": 64,
           "sizeY:3": 24
         },
-        "30:10": {
+        "28:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -180,
           "id:3": 65,
           "sizeY:3": 24
         },
-        "31:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -144,
           "id:3": 66,
           "sizeY:3": 24
         },
-        "32:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -120,
           "id:3": 67,
           "sizeY:3": 24
         },
-        "33:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -168,
           "id:3": 68,
           "sizeY:3": 24
         },
-        "34:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -36,
           "id:3": 71,
           "sizeY:3": 24
         },
-        "35:10": {
-          "sizeX:3": 12,
-          "x:3": -48,
-          "y:3": -240,
-          "id:3": 72,
-          "sizeY:3": 12
-        },
-        "36:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -24,
           "id:3": 75,
           "sizeY:3": 24
         },
-        "37:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": -168,
           "id:3": 268,
           "sizeY:3": 24
         },
-        "38:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": -204,
           "id:3": 279,
           "sizeY:3": 24
         },
-        "39:10": {
+        "36:10": {
           "sizeX:3": 12,
           "x:3": -48,
           "y:3": -132,
           "id:3": 321,
           "sizeY:3": 12
         },
-        "40:10": {
+        "37:10": {
           "sizeX:3": 12,
           "x:3": 84,
           "y:3": -120,
           "id:3": 322,
           "sizeY:3": 12
         },
-        "41:10": {
+        "38:10": {
           "sizeX:3": 12,
           "x:3": -48,
           "y:3": -168,
           "id:3": 323,
           "sizeY:3": 12
         },
-        "42:10": {
+        "39:10": {
           "sizeX:3": 12,
           "x:3": -48,
           "y:3": -96,
           "id:3": 325,
           "sizeY:3": 12
         },
-        "43:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -108,
           "id:3": 330,
           "sizeY:3": 24
         },
-        "44:10": {
+        "41:10": {
           "sizeX:3": 24,
           "x:3": 120,
           "y:3": -132,
           "id:3": 342,
           "sizeY:3": 24
         },
-        "45:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": -168,
           "id:3": 343,
           "sizeY:3": 24
         },
-        "46:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": -96,
           "id:3": 344,
           "sizeY:3": 24
         },
-        "47:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": -132,
